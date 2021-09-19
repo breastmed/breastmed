@@ -1,0 +1,37 @@
+[build]
+publish = "public"
+command = "make netlify"
+
+[build.environment]
+HUGO_VERSION = "0.88.1"
+
+[build.processing]
+skip_processing = false
+
+[build.processing.css]
+bundle = false
+minify = false
+
+[build.processing.js]
+bundle = false
+minify = false
+
+[build.processing.html]
+pretty_urls = true
+
+[build.processing.images]
+compress = true
+
+[[headers]]
+  for = "/style.*.css"
+  [headers.values]
+    cache-control = '''
+    max-age=31536000,
+    immutable'''
+
+[[headers]]
+  for = "/fonts.*.css"
+  [headers.values]
+    cache-control = '''
+    max-age=31536000,
+    immutable'''
