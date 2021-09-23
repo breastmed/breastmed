@@ -7,8 +7,9 @@ body > header {
   height: $headerHeight;
   line-height: $headerHeight;
   vertical-align: top;
-  padding: $headerPadding;
+  padding: $headerPadding 0;
   color: $white;
+  z-index: 1;
   a {
     color: $white;
     &:hover, &:active, &:visited { color: $white; }
