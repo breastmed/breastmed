@@ -4,3 +4,5 @@ title = 'Dr. Justice Reilly – Breastfeeding Medicine'
 disableKinds = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject = true
 enableGitInfo = true
+[markup.goldmark.renderer]
+unsafe = true
