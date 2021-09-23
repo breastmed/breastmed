@@ -1,5 +1,6 @@
 ---
 title: Privacy policy
+hero_text: Privacy policy
 sections:
   - type: text-box
     bg: isabelline

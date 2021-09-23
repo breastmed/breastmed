@@ -1,6 +1,7 @@
 ---
 title: Services
-hero: /i/placeholder.jpg
+hero_landscape: /i/consultation.jpeg
+hero_text: Find what's right for you
 menu:
   main:
     weight: 20

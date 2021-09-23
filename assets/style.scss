@@ -28,6 +28,9 @@ $transition: all 0.2s ease-in-out;
 $headerPadding: 1.7em;
 $headerHeight: 3em;
 
+$verticalPadding: 3em;
+$horizontalPadding: 1em;
+
 @import "scss/normalize";
 @import "scss/base";
 @import "scss/book-button";

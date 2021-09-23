@@ -1,6 +1,6 @@
 ---
 title: Free Resources
-hero: /i/placeholder.jpg
+hero_landscape: /i/consultation.jpeg
 hero_text: This is **text**
 menu:
   main:
@@ -8,7 +8,7 @@ menu:
 sections:
   - type: text-box
     bg: isabelline
-    image: /i/placeholder.jpg
+    image: /i/consultation.jpeg
     content: |-
       Dr Reilly is a consultant to, or executive member of the following organisations which look to promote and protect access to breastfeeding support in the UK:
 

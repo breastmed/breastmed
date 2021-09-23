@@ -1,0 +1,25 @@
+{{ if and .Page.Params.hero_portrait .Page.Params.hero_landscape }}
+  <div id="hero" data-landscape="url({{ .Page.Params.hero_landscape }})" data-portrait="url({{ .Page.Params.hero_portrait }})">
+    <script>
+      (function(){
+        var h=document.currentScript.parentNode,l=h.getAttribute('data-landscape'),p=h.getAttribute('data-portrait'),r=function(){ h.style.backgroundImage=window.innerHeight>window.innerWidth ? p : l; };
+        window.addEventListener('resize',r);r();
+      })();
+    </script>
+{{ else if or (isset .Page.Params "hero_portrait") (isset .Page.Params "hero_landscape") }}
+  <div id="hero" style="background-image:url({{ .Page.Params.hero_portrait }}{{ .Page.Params.hero_landscape }})">
+{{ else }}
+  <div id="hero" class="no-image">
+{{ end }}
+  {{ $opts := dict "display" "block" }}
+  <div class="wrapper">{{ .Page.RenderString $opts .Page.Params.hero_text }}</div>
+  <script>
+    (function(){
+      var h=document.currentScript.parentElement,w=h.getElementsByClassName('wrapper')[0],f=function(){
+        var y=Math.min(document.scrollingElement.scrollTop,h.getBoundingClientRect().height);
+        h.style.top=y/2+'px'; w.style.top='-'+y*.67+'px';
+      };
+      window.addEventListener('scroll',f);f();
+    })();
+  </script>
+</div>
