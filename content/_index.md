@@ -1,7 +1,10 @@
 ---
 title: Home
 hero: /i/placeholder.jpg
-hero_text: Text
+hero_text: |-
+  You don't have to brave it alone.
+
+  [Book a consultation today](BOOK)
 menu:
   main:
     weight: -10

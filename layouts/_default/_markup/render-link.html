@@ -1,0 +1,5 @@
+{{- if eq .Destination "BOOK" -}}
+  <label class="book-button" for="book-checkbox">{{ .Text | safeHTML }}</label>
+{{- else -}}
+  <a href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener" {{- end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}

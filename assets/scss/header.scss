@@ -16,6 +16,9 @@ body > header {
     display: flex;
     justify-content: space-between;
   }
+  .book-button {
+    padding: 0 1.3em;
+  }
 }
 
 #site-logo, #menu-icon {
@@ -107,6 +110,10 @@ body > header {
     right: 0;
     bottom: 0;
     left: 0;
+    .book-button {
+      background-color: $white;
+      color: $rosyBrown;
+    }
     ul {
       padding: 2em;
       height: 100vh;
@@ -125,25 +132,17 @@ body > header {
       font-size: 1.5em;
     }
   }
-  #book-button {
-    background-color: $white;
-    color: $rosyBrown;
-  }
-}
-
-#book-button {
-  padding: 0 1.3em;
-  display: inline-block;
 }
 
 @media #{$firstBreakpointStr} {
-  #book-button {
-    background-color: rgba(0,0,0,0.2);
-  }
   #menu-icon {
     display: none;
   }
   #main-menu {
+    .book-button {
+      background-color: rgba(0,0,0,0.2);
+      color: $white;
+    }
     ul {
       list-style-type: none;
       padding: 0;

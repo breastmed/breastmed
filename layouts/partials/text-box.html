@@ -4,7 +4,8 @@
       <img src="{{ .section.image }}">
     {{ end }}
     <div class="text-box">
-      {{ markdownify .section.content }}
+      {{ $opts := dict "display" "block" }}
+      {{ .page.RenderString $opts .section.content }}
     </div>
   </div>
 </section>
