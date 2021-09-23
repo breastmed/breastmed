@@ -13,7 +13,7 @@ html, body {
 
 body {
   font-family: $primaryFontFamily;
-  background-color: $isabelline;
+  background-color: $blueSapphire;
   color: $defaultColor;
 }
 
@@ -27,8 +27,22 @@ h6 {
   font-size: 2rem;
 }
 
+h1 { color: $black; }
+h2 { color: $blueSapphire; }
+h3 { color: $khakiWeb; }
+h4 { color: $rosyBrown; }
+h5 { color: $pewterBlue; }
+
 label {
   cursor: pointer;
+}
+
+a {
+  transition: $transition;
+  color: $pewterBlue;
+  &:visited { color: $blueSapphire; }
+  &:hover { color: $rosyBrown; }
+  &:active { color: $rosyBrown; }
 }
 
 div.wrapper {
