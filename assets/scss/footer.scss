@@ -1,3 +1,113 @@
+body > section.testimonials {
+  background-color: $pewterBlue;
+  color: $white;
+  position: relative;
+  > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: auto;
+    align-items: center;
+    > li {
+      width: 100vw;
+      flex-shrink: 0;
+      text-align: center;
+      .wrapper {
+        padding: 3em;
+      }
+    }
+  }
+  .quote {
+    font-family: $secondaryFontFamily;
+    @media #{$firstBreakpointStr} {
+      font-size: 1.5em;
+    }
+    text-align: left;
+    margin-bottom: 1.5em;
+  }
+  .source {
+    display: inline;
+    background-color: $isabelline;
+    color: $pewterBlue;
+    padding: 0.5em;
+    &:before {
+      content: '— ';
+    }
+  }
+  .cta {
+    text-align: center;
+    label {
+      display: block;
+    }
+  }
+  button {
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: 0;
+    &.play:before,
+    &.play:after,
+    &.pause:before,
+    &.pause:after,
+    &.next:before,
+    &.next:after,
+    &.prev:before,
+    &.prev:after {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      right: 0;
+      content: '';
+      transition: $transition;
+      border-style: solid;
+      border-color: transparent;
+      border-left-color: $white;
+      opacity: 0.4;
+    }
+    &.play:before,
+    &.play:after {
+      border-width: 0.5em 0 0.5em 1em;
+    }
+    &.pause:before,
+    &.pause:after {
+      border-width: 0 0 0 0.3em;
+      height: 1em;
+      border-color: $white;
+    }
+    &.pause:after {
+      right: 0.7em;
+    }
+    &.next:before,
+    &.next:after,
+    &.prev:before,
+    &.prev:after {
+      border-width: 0.25em 0 0.25em 0.5em;
+      top: 0.25em;
+    }
+    &.prev:before,
+    &.next:before {
+      right:0.5em;
+    }
+    &.prev:before,
+    &.prev:after {
+      transform: rotate(180deg);
+    }
+    &.pause, &.play {
+      margin-left: -0.5em;
+    }
+    &.prev {
+      margin-left: -2.5em;
+    }
+    &.next {
+      margin-left: 1.5em;
+    }
+  }
+}
 
 body > footer {
   background-color: $blueSapphire;

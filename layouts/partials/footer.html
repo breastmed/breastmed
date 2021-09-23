@@ -1,3 +1,48 @@
+<section class="testimonials">
+  <ul>
+    {{ range .Site.Data.testimonials.testimonials }}
+      <li>
+        <div class="wrapper">
+          <div class="quote">{{ markdownify .quote }}</div>
+          <div class="source">{{ .source }}</div>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+  <div class="cta">{{ .Page.RenderString "[Book consulation now](BOOK)" }}</div>
+  <script>
+    (function(){
+      var u=document.currentScript.parentElement.children[0],n=u.children.length,f=function(t){
+        var w=window.innerWidth,x=w*((Math.round(u.scrollLeft/w)+(t||1))%n);
+        u.scrollTo({top:0,left:x,behavior:'smooth'});
+      };
+      u.style.overflowX='hidden';
+      window.addEventListener('resize',function(){f(n);});
+      var i,g=function(){f();i=setTimeout(g,7000)};
+      g();
+      var p=document.createElement('button');p.className='pause';
+      var r=document.createElement('button');r.className='next';
+      var l=document.createElement('button');l.className='prev';
+      p.addEventListener('click',function(){
+        switch(this.className){
+          case 'pause':
+            clearTimeout(i);
+            this.className='play';
+            break;
+          case 'play':
+            g();
+            this.className='pause';
+            break;
+        }
+      });
+      r.addEventListener('click',function(){f(1)});
+      l.addEventListener('click',function(){f(-1)});
+      u.after(r);
+      u.after(p);
+      u.after(l);
+    })();
+  </script>
+</section>
 <footer>
   <div class="wrapper">
     <a id="footer-logo" href="/"><img src="/i/pewter-logo.svg" alt="{{ .Site.Title }}"></a>
