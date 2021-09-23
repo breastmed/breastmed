@@ -1,0 +1,11 @@
+main {
+  z-index: 2;
+  background-color: $isabelline;
+  position: relative;
+}
+
+body > main > section {
+  padding: $verticalPadding 0;
+}
+
+@import "scss/text-box";

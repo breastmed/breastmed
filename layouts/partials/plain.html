@@ -1,0 +1,10 @@
+<section class="plain">
+  <div class="wrapper">
+    {{ if .usePage }}
+      {{ .page.Content }}
+    {{ else }}
+      {{ $opts := dict "display" "block" }}
+      {{ .page.RenderString $opts .section.content }}
+    {{ end }}
+  </div>
+</section>

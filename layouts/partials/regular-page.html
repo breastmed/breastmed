@@ -1,4 +1,9 @@
-{{- range .Params.sections }}
-  {{ partial .type (dict "section" .) }}
-{{ end -}}
-{{ .Content }}
+<main>
+  {{ $page := .Page }}
+  {{- range .Params.sections }}
+    {{ partial .type (dict "section" . "page" $page) }}
+  {{ end -}}
+  {{ if .Content }}
+    {{ partial "plain" (dict "usePage" true "page" $page) }}
+  {{ end }}
+</main>
