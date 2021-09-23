@@ -1,3 +1,6 @@
 baseURL = 'https://breastmed.co.uk'
 languageCode = 'en-gb'
 title = 'Dr. Justice Reilly – Breastfeeding Medicine'
+disableKinds = ["taxonomy", "taxonomyTerm"]
+disableHugoGeneratorInject = true
+enableGitInfo = true

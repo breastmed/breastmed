@@ -1,3 +1,6 @@
+[Settings]
+ID = "breastmed"
+
 [build]
 publish = "public"
 command = "make netlify"
@@ -24,13 +27,6 @@ compress = true
 
 [[headers]]
   for = "/style.*.css"
-  [headers.values]
-    cache-control = '''
-    max-age=31536000,
-    immutable'''
-
-[[headers]]
-  for = "/fonts.*.css"
   [headers.values]
     cache-control = '''
     max-age=31536000,

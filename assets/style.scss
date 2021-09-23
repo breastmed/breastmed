@@ -1,0 +1,34 @@
+$blueSapphire: #28536b;
+$rosyBrown: #c2948a;
+$pewterBlue: #7ea8be;
+$isabelline: #f6f0ed;
+$khakiWeb: #bbb193;
+
+$black: #111111;
+$white: #ffffff;
+
+$defaultBackgroundColor: $isabelline;
+$defaultColor: $black;
+$emphasisColor: $blueSapphire;
+
+$primaryFontFamily: "Source Sans 3", sans-serif;
+$secondaryFontFamily: "Source Serif 4 Display", sans-serif;
+
+$textSize: 4vw;
+$textFirstSize: 1.8vw;
+$firstBreakpoint: 666px;
+$secondBreakpoint: 1111px;
+$beforeFirstBreakpointStr: "(max-width: #{$firstBreakpoint - 1px})";
+$firstBreakpointStr: "(min-width: #{$firstBreakpoint})";
+$secondBreakpointStr: "(min-width: #{$secondBreakpoint})";
+$lineHeight: 1.35;
+
+$transition: all 0.2s ease-in-out;
+
+$headerPadding: 1.7em;
+$headerHeight: 3em;
+
+@import "scss/normalize";
+@import "scss/base";
+@import "scss/hero";
+@import "scss/header";

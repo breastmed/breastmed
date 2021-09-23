@@ -1,0 +1,19 @@
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: $pewterBlue;
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: $headerHeight + 2*$headerPadding;
+  color: $white;
+  font-family: $secondaryFontFamily;
+  .wrapper {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}

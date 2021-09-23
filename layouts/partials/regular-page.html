@@ -1,0 +1,4 @@
+{{- range .Params.sections }}
+  {{ partial .type (dict "section" .) }}
+{{ end -}}
+{{ .Content }}

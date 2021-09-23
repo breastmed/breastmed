@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>{{ .Site.title }}</title>
-  </head>
-  <body>
-    {{ block "main" . }}
-    {{ end }}
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#28536b">
+  <meta name="apple-mobile-web-app-title" content="Breastfeeding Medicine">
+  <meta name="application-name" content="Breastfeeding Medicine">
+  <meta name="msapplication-TileColor" content="#28536b">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#fbfaf2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#28536b" media="(prefers-color-scheme: dark)">
+
+  <title>{{ .Page.Title }} — {{ .Site.Title }}</title>
+
+  {{/* CSS */}}
+  {{- $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" false) -}}
+  {{- $style := resources.Get "style.scss" | resources.ToCSS $options | resources.Fingerprint "md5" -}}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css" media="all">
+  {{- $options := (dict "targetPath" "fonts.css" "outputStyle" "compressed" "enableSourceMap" false) -}}
+  {{- $style := resources.Get "fonts.scss" | resources.ToCSS $options | resources.Fingerprint "md5" -}}
+  <style type="text/css">{{ safeCSS $style.Content }}</style>
+
+</head>
+
+{{- $pageId := replace .Page.RelPermalink "/" "-" | replaceRE "\\.html$" "" | replaceRE "-$" "" | replaceRE "^$" "-home" }}
+
+<body id="page-{{ $pageId }}">
+  {{ partial "header" . }}
+  <div id="hero" style="background-image:url({{ .Page.Params.hero }})">
+    <div class="wrapper">{{ markdownify .Page.Params.hero_text }}</div>
+  </div>
+  {{ block "main" . }}
+  {{ end }}
+  {{ partial "footer" . }}
+</body>
+
 </html>
