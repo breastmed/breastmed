@@ -1,0 +1,6 @@
+{
+  "*": {
+    "make": "make build",
+    "start": "make dev"
+  }
+}
