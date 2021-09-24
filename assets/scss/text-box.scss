@@ -1,12 +1,6 @@
 section.text-box {
   text-align: center;
 
-  &.bg-isabelline { background-color: $isabelline; }
-  &.bg-rosy-brown { background-color: $rosyBrown; }
-  &.bg-blue-sapphire { background-color: $blueSapphire; }
-  &.bg-pewter-blue { background-color: $pewterBlue; }
-  &.bg-khaki-web { background-color: $khakiWeb; }
-
   > .wrapper > img {
     width: 80%;
     height: auto;

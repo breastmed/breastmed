@@ -1,0 +1,11 @@
+<section class="columns bg-{{ .section.bg }} desktop-count-{{ .section.desktop_count }} mobile-count-{{ .section.mobile_count }}">
+  <div class="wrapper">
+    {{ $opts := dict "display" "block" }}
+    {{ $page := .page }}
+    {{ range .section.content }}
+      <div class="column">
+        {{ $page.RenderString $opts . }}
+      </div>
+    {{ end }}
+  </div>
+</section>

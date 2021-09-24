@@ -1,0 +1,15 @@
+section.cta div.cta {
+  text-align: center;
+  font-size: 1.5em;
+}
+section.cta:not(.bg-isabelline) {
+  color: $white;
+  a { color: $white; }
+  label {
+    background-color: $isabelline;
+    color: $rosyBrown;
+  }
+}
+section.cta.bg-isabelline {
+  color: $blueSapphire;
+}

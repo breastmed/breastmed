@@ -1,0 +1,36 @@
+section.columns {
+  text-align: center;
+
+  > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@for $i from 1 through 6 {
+  @media #{$beforeFirstBreakpointStr} {
+    .mobile-count-#{$i} .column {
+      width: 100%/$i;
+    }
+  }
+  @media #{$firstBreakpointStr} {
+    .desktop-count-#{$i} .column {
+      width: 100%/$i;
+    }
+  }
+}

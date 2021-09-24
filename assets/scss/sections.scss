@@ -5,6 +5,14 @@ main {
 
 body > main > section {
   padding: $verticalPadding 0;
+
+  &.bg-isabelline { background-color: $isabelline; }
+  &.bg-rosy-brown { background-color: $rosyBrown; }
+  &.bg-blue-sapphire { background-color: $blueSapphire; }
+  &.bg-pewter-blue { background-color: $pewterBlue; }
+  &.bg-khaki-web { background-color: $khakiWeb; }
 }
 
 @import "scss/text-box";
+@import "scss/columns";
+@import "scss/cta";

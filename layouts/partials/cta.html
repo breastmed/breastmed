@@ -1,0 +1,8 @@
+<section class="cta bg-{{ .section.bg }}">
+  <div class="wrapper">
+    <div class="cta">
+      {{ $opts := dict "display" "block" }}
+      {{ .page.RenderString $opts .section.content }}
+    </div>
+  </div>
+</section>
