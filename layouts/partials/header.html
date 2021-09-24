@@ -1,6 +1,22 @@
+<input type="checkbox" id="book-checkbox" style="display:none" onchange="setupBook(this.checked)">
+<label id="book-bg" for="book-checkbox"></label>
+<div id="book-box"><div id="book-wrapper" class="wrapper">
+  <script>
+    window.setupBook = function(s) {
+      var x=document.getElementById('cliniko-3616999');
+      var y=document.getElementById('book-wrapper');
+      if (!s) return y.removeChild(x);
+      if (x) return;
+      x=document.createElement('iframe');x.id='cliniko-3616999';
+      x.src='https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true';
+      y.appendChild(x);
+    };
+  </script>
+  <noscript><iframe id="cliniko-3616999" src="https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true"></iframe></noscript>
+</div></div>
+<input type="checkbox" id="menu-checkbox" style="display:none" onchange="document.body.className=this.checked?'menu-open':''">
 <header>
   <div class="wrapper">
-    <input type="checkbox" id="menu-checkbox" style="display:none" onchange="document.body.style.position=this.checked?'fixed':'static'">
     <a id="site-logo" href="/"><img src="/i/white-logo.svg" alt="{{ .Site.Title }}"></a>
     <label id="menu-icon" for="menu-checkbox" role="button" title="Menu"></label>
     <div id="main-menu-bg"></div>
@@ -8,33 +24,17 @@
       <ul>
         {{ range .Site.Menus.main -}}
           {{ if ne .Weight 999 }}
-            <li{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active" {{ end }}>
+            <li>
               {{ if .URL -}}
-                <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                <a href="{{ .URL }}" title="{{ .Title }}"{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active" {{ end }}>{{ .Name }}</a>
               {{- else -}}
                 <span>{{ .Name }}<span>
-                  {{- end }}
+              {{- end }}
             </li>
           {{- end }}
         {{- end }}
         <li>
           <label class="book-button" for="book-checkbox">Book now</label>
-          <input type="checkbox" id="book-checkbox" style="display:none" onchange="setupBook(this.checked)">
-          <label id="book-bg" for="book-checkbox"></label>
-          <div id="book-box"><div id="book-wrapper" class="wrapper">
-            <script>
-              window.setupBook = function(s) {
-                var x=document.getElementById('cliniko-3616999');
-                var y=document.getElementById('book-wrapper');
-                if (!s) return y.removeChild(x);
-                if (x) return;
-                x=document.createElement('iframe');x.id='cliniko-3616999';
-                x.src='https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true';
-                y.appendChild(x);
-              };
-            </script>
-            <noscript><iframe id="cliniko-3616999" src="https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true"></iframe></noscript>
-          </div></div>
         </li>
       </ul>
     </nav>

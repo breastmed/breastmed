@@ -63,7 +63,7 @@ body > section.testimonials {
       top: 0;
       right: 0;
       content: '';
-      transition: $transition;
+      @include transition(border);
       border-style: solid;
       border-color: transparent;
       border-left-color: $white;

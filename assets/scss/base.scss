@@ -38,7 +38,7 @@ label {
 }
 
 a {
-  transition: $transition;
+  @include transition(color);
   color: $pewterBlue;
   &:visited { color: $blueSapphire; }
   &:hover { color: $rosyBrown; }

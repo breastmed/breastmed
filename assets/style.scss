@@ -23,7 +23,9 @@ $firstBreakpointStr: "(min-width: #{$firstBreakpoint})";
 $secondBreakpointStr: "(min-width: #{$secondBreakpoint})";
 $lineHeight: 1.35;
 
-$transition: all 0.2s ease-in-out;
+@mixin transition($which: all, $multiplier: 1, $easing: ease-in-out, $length: 0.2s) {
+  transition: $which ($multiplier*$length) $easing;
+}
 
 $headerPadding: 1.7em;
 $headerHeight: 3em;
