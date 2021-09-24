@@ -29,6 +29,9 @@ sections:
       As a mum, I recognise how important breastfeeding is to you and your baby.
       I also recognise the need for early skilled support to get your journey off to a good start.
       It can prevent problems or an early end to breastfeeding later on.
+  - type: cta
+    bg: isabelline
+    content: |-
+      *Dr Reilly is able to offer [consultations in your own home](/services#home-visit) within a 30 minute drive of Glasgow G43, or [remotely](/services#online-consultation).*
 ---
 
-*Dr Reilly is able to offer [consultations in your own home](/services) within a 30 minute drive of Glasgow G43, or remotely.*

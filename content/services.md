@@ -55,7 +55,7 @@ sections:
     bg: rosy-brown
     content: |-
 
-      ## Home visit (£200, 1 hour)
+      ## Home visit
 
       A 1:1 consultation gives us the time to explore your medical, birth and breastfeeding history to date, as well as your breastfeeding goals. A home visit allows us to use your own furniture for positioning and attachment which can be repeated after I have left. Babies should be fed responsively, but you may want to offer milk around an hour before I arrive so we will be able to talk before they need to feed again. I understand babies are unpredictable however, and the benefit of a home visit is that we can go entirely at your baby's pace. You won't have to worry about your baby crying in the car seat or being late because they needed a nappy change just as you're about to leave.
 
@@ -63,28 +63,34 @@ sections:
 
       - Home consultations include a written report within 48 hours which can be shared with your medical team, legal representative or employer.
 
+      ### £200, 1 hour
+
       [Book now](BOOK)
   - type: text-box
     bg: rosy-brown
     content: |-
 
 
-      ## Online consultation (£100, 1 hour)
+      ## Online consultation
 
       Appropriate for consultations where there is no need for a feeding observation, breast examination, infant oral assessment or weight. This may include devising a breastfeeding/expressing plan for return to work, negotiating nursing boundaries with your toddler, or how to maximise family sleep.
 
       Written reports are available on request and may be shared with relevant professionals.
 
+      ### £100, 1 hour
+
       [Book now](BOOK)
   - type: text-box
     bg: rosy-brown
     content: |-
 
-      ## Debrief online or in person (£100/£200, 1 hour)
+      ## Debrief online or in person
 
       Breastfeeding doesn't always go to plan and many mothers are left feeling guilty or with feelings of loss when they haven't breastfed, or haven't breastfed for as long as they wanted. I have a unique perspective from speaking to women in breast clinic in their 50s and 60s who are still trying to come to terms with this sense of failure. Whether it was 20 days or 20 years ago, I am able to help you process what happened and potentially offer some answers to your questions.
 
       This can also be an important step in your next breastfeeding journey, and provide closure before your next baby. We can come up with an individualised plan to optimise breastfeeding the next time based on your particular challenges. A breastfeeding debrief and understanding can also help you make peace with your own journey so that you are able to fully support a loved one such as a daughter or granddaughter.
+
+      ### £100/£200, 1 hour
 
       [Book now](BOOK)
 
