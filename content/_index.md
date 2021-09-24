@@ -5,7 +5,7 @@ hero_landscape: /i/consultation.jpeg
 hero_text: |-
   You don't have to brave it alone.
 
-  [Book a consultation today](BOOK)
+  [Get help today](BOOK)
 menu:
   main:
     weight: -10
