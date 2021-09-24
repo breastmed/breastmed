@@ -1,7 +1,9 @@
 <section class="text-box bg-{{ .section.bg }} position-{{ .section.position }}">
   <div class="wrapper">
     {{ if .section.image }}
-      <img src="{{ .section.image }}">
+      {{- $original := .images.GetMatch (replace .section.image "/i/" "") -}}
+      {{- $image := $original.Resize "800x" -}}
+      <img src="{{ $image.RelPermalink }}">
     {{ end }}
     <div class="text-box">
       {{ $opts := dict "display" "block" }}

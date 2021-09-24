@@ -1,3 +1,8 @@
+{{- .Scratch.Set "images" (.Site.GetPage "/i").Resources -}}
+{{- $images := .Scratch.Get "images" -}}
+{{/* The following line ensures that all files in content/i/ are copied to public/ on build */}}
+{{- $imageLinks := slice }}{{ range $images.ByType "image" }}{{ $imageLinks = append .RelPermalink $imageLinks }}{{ end -}}
+
 <!DOCTYPE html>
 <html lang="en">
 

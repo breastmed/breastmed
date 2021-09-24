@@ -1,9 +1,10 @@
 <main>
   {{ $page := .Page }}
+  {{ $images := .Scratch.Get "images" }}
   {{- range .Params.sections }}
-    {{ partial .type (dict "section" . "page" $page) }}
+    {{ partial .type (dict "section" . "page" $page "images" $images) }}
   {{ end -}}
   {{ if .Content }}
-    {{ partial "plain" (dict "usePage" true "page" $page) }}
+    {{ partial "plain" (dict "usePage" true "page" $page "images" $images) }}
   {{ end }}
 </main>

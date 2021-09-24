@@ -14,4 +14,4 @@ dev: clean
 
 clean:
 	rm -rf public
-	rm -rf resources/_gen
+	rm -rf resources/_gen/assets

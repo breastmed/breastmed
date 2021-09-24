@@ -1,5 +1,3 @@
 /public/
-
-# Local Netlify folder
+/resources/_gen/assets/
 .netlify
-/resources/_gen/

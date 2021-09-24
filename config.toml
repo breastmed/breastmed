@@ -6,3 +6,5 @@ disableHugoGeneratorInject = true
 enableGitInfo = true
 [markup.goldmark.renderer]
 unsafe = true
+[imaging]
+quality = 80
