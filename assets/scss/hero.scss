@@ -1,6 +1,5 @@
 #hero {
   &:before {
-    transform: translateZ(-50em) scale(1.5);
     background-color: $pewterBlue;
     background-position: center center;
     background-size: cover;
@@ -11,6 +10,7 @@
     bottom: 0;
     left: 0;
   }
+  &:not(.no-image):before { transform: translateZ(-50em) scale(1.5); }
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
@@ -29,8 +29,8 @@
     justify-content: center;
     height: 100%;
     top: 0;
-    transform: translateZ(-10em) scale(1.1);
   }
+  &:not(.no-image) .wrapper { transform: translateZ(-10em) scale(1.1); }
   &.no-image {
     height: 20em;
   }
