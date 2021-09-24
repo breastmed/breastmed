@@ -1,4 +1,12 @@
 {
+  "layouts/partials/*.html": {
+    "type": "partial",
+    "alternate": "assets/scss/{}.scss"
+  },
+  "assets/scss/*.scss": {
+    "type": "scss",
+    "alternate": "layouts/**/{}.html"
+  },
   "*": {
     "make": "make build",
     "start": "make dev"
