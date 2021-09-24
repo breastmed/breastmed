@@ -25,10 +25,6 @@ body > header {
   }
 }
 
-#site-logo, #menu-icon {
-}
-
-
 #site-logo {
   outline: none;
   height: $headerHeight;
@@ -195,6 +191,22 @@ body > header {
   right: 0;
   bottom: 0;
   left: 0;
+  &:before, &:after {
+    content: 'CLOSE';
+    letter-spacing: 0.1em;
+    color: $white;
+    position: fixed;
+    pointer-events: none;
+    top: 0.5em;
+    left: 50%;
+    width: 50%;
+    text-align: right;
+    max-width: $secondBreakpoint/2;
+    @media #{$beforeFirstBreakpointStr} {
+      padding-right: 1em;
+    }
+    box-sizing: border-box;
+  }
 }
 
 #book-box {
