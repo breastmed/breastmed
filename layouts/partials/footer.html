@@ -20,18 +20,18 @@
       window.addEventListener('resize',function(){f(n);});
       var i,g=function(){f();i=setTimeout(g,7000)};
       g();
-      var p=document.createElement('button');p.className='pause';
-      var r=document.createElement('button');r.className='next';
-      var l=document.createElement('button');l.className='prev';
+      var p=document.createElement('div');p.className='button pause';
+      var r=document.createElement('div');r.className='button next';
+      var l=document.createElement('div');l.className='button prev';
       p.addEventListener('click',function(){
         switch(this.className){
-          case 'pause':
+          case 'button pause':
             clearTimeout(i);
-            this.className='play';
+            this.className='button play';
             break;
-          case 'play':
+          case 'button play':
             g();
-            this.className='pause';
+            this.className='button pause';
             break;
         }
       });

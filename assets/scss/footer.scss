@@ -41,10 +41,11 @@
       display: block;
     }
   }
-  button {
+  .button {
     position: absolute;
     top: 1em;
     left: 50%;
+    font-size: 1.5em;
     width: 1em;
     height: 1em;
     background-color: transparent;
