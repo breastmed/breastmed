@@ -1,7 +1,7 @@
 .PHONY: build netlify dev clean
 
 HUGO := hugo
-BIND := localhost
+BIND := 0.0.0.0
 
 build: clean
 	$(HUGO)
