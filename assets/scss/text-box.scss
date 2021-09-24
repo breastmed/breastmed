@@ -16,7 +16,10 @@ section.text-box {
   .text-box {
     text-align: left;
     box-sizing: border-box;
-    padding: $verticalPadding;
+    padding: $verticalPadding/2;
+    @media #{$firstBreakpointStr} {
+      padding: $verticalPadding;
+    }
     background-color: $white;
     color: $blueSapphire;
     &:not(:only-child) {
