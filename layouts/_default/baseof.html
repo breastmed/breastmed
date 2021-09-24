@@ -35,11 +35,13 @@
 {{- $pageId := replace .Page.RelPermalink "/" "-" | replaceRE "\\.html$" "" | replaceRE "-$" "" | replaceRE "^$" "-home" }}
 
 <body id="page-{{ $pageId }}">
-  {{ partial "header" . }}
-  {{ partial "hero" . }}
-  {{ block "main" . }}
-  {{ end }}
-  {{ partial "footer" . }}
+  <div id="site">
+    {{ partial "header" . }}
+    {{ partial "hero" . }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer" . }}
+  </div>
 </body>
 
 </html>

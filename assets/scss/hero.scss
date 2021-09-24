@@ -1,9 +1,18 @@
 #hero {
+  &:before {
+    transform: translateZ(-50em) scale(1.5);
+    background-color: $pewterBlue;
+    background-position: center center;
+    background-size: cover;
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
   width: 100vw;
   height: 100vh;
-  background-color: $pewterBlue;
-  background-position: center center;
-  background-size: cover;
   box-sizing: border-box;
   padding-top: $headerHeight + 2*$verticalPadding;
   color: $white;
@@ -20,6 +29,7 @@
     justify-content: center;
     height: 100%;
     top: 0;
+    transform: translateZ(-10em) scale(1.1);
   }
   &.no-image {
     height: 20em;

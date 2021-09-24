@@ -3,4 +3,8 @@
   background-color: $rosyBrown;
   padding: 1em 1.3em;
   display: inline-block;
+  @include transition(background-color);
+  &:hover {
+    background-color: mix($rosyBrown,$white,80%);
+  }
 }

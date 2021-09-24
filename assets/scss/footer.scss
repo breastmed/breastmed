@@ -1,4 +1,4 @@
-body > section.testimonials {
+#site > section.testimonials {
   background-color: $pewterBlue;
   color: $white;
   position: relative;
@@ -109,7 +109,7 @@ body > section.testimonials {
   }
 }
 
-body > footer {
+#site > footer {
   background-color: $blueSapphire;
   color: $pewterBlue;
   a {

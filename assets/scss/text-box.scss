@@ -2,6 +2,7 @@ section.text-box {
   text-align: center;
 
   > .wrapper > img {
+    transform: translateZ(10em) scale(0.95);
     width: 80%;
     height: auto;
     margin-bottom: -$verticalPadding/2;

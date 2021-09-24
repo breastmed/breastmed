@@ -3,7 +3,7 @@ main {
   position: relative;
 }
 
-body > main > section {
+#site > main > section {
   padding: $verticalPadding 0;
 
   &.bg-isabelline { background-color: $isabelline; }

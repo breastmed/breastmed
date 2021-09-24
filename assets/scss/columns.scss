@@ -20,6 +20,12 @@ section.columns {
     width: 80%;
     height: auto;
   }
+  a > img {
+    @include transition(transform);
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }
 
 @for $i from 1 through 6 {
