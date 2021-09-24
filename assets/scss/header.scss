@@ -9,15 +9,6 @@
   vertical-align: top;
   padding: $headerPadding 0;
   color: $white;
-  a {
-    color: $white;
-    &:hover, &:active, &:visited { color: $white; }
-    text-decoration: none;
-    @include transition(border-bottom-color);
-    border-bottom: 0.1em solid rgba(255,255,255,0.0);
-    &.active { border-bottom-color: $white; }
-    &:not(.active):hover { border-bottom-color: rgba(255,255,255,0.4); }
-  }
   > div.wrapper {
     display: flex;
     justify-content: space-between;
@@ -35,6 +26,15 @@
   }
 }
 
+#main-menu a {
+  color: $white;
+  &:hover, &:active, &:visited { color: $white; }
+  text-decoration: none;
+  @include transition(border-bottom-color);
+  border-bottom: 0.1em solid rgba(255,255,255,0.0);
+  &.active { border-bottom-color: $white; }
+  &:not(.active):hover { border-bottom-color: rgba(255,255,255,0.4); }
+}
 
 @media #{$beforeFirstBreakpointStr} {
   body.menu-open { position: fixed; }
