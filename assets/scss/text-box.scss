@@ -30,4 +30,15 @@ section.text-box {
       }
     }
   }
+
+  @media #{$firstBreakpointStr} {
+    &.position-left {
+      .wrapper > img {
+        float: left;
+      }
+      .text-box {
+        margin-left: 40%;
+      }
+    }
+  }
 }

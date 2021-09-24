@@ -1,14 +1,14 @@
 ---
 title: Free Resources
-hero_landscape: /i/consultation.jpeg
-hero_text: This is **text**
+hero_portrait: /i/family.jpg
+hero_text: Free resources
 menu:
   main:
     weight: 30
 sections:
   - type: text-box
-    bg: isabelline
-    image: /i/consultation.jpeg
+    bg: khaki-web
+    image: /i/baby-bw.jpg
     content: |-
       Dr Reilly is a consultant to, or executive member of the following organisations which look to promote and protect access to breastfeeding support in the UK:
 
@@ -18,7 +18,7 @@ sections:
       * [La Leche League GB](https://laleche.org.uk) ([@LLLGB](https://twitter.com/LLLGB))
       * [The Breastfeeding Network](https://www.breastfeedingnetwork.org.uk)
   - type: text-box
-    bg: khaki-web
+    bg: isabelline
     content: |-
       ##### Inclusivity
 
