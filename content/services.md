@@ -1,6 +1,7 @@
 ---
 title: Services
-hero_landscape: /i/sleepy.jpg
+hero_landscape: /i/consultation.jpg
+hero_portrait: /i/breastfeeding-after.jpg
 hero_text: Find what's right for you
 menu:
   main:
@@ -8,6 +9,7 @@ menu:
 sections:
   - type: text-box
     bg: khaki-web
+    image:  /i/justice-helping.jpg
     content: |-
       ## Why see a lactation consultant?
 
@@ -96,6 +98,7 @@ sections:
 
   - type: text-box
     bg: rosy-brown
+    image: /i/blue-blazer.jpg
     content: |-
 
       ## Professional Services

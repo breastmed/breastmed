@@ -10,7 +10,7 @@ menu:
 sections:
   - type: text-box
     bg: isabelline
-    image: /i/baby-hands.jpg
+    image: /i/justice-meeting.jpg
     position: left
     content: |-
       I am an NHS Speciality Breast Doctor and International Board Certified Lactation Consultant (IBCLC).
@@ -21,8 +21,8 @@ sections:
       I also form part of many committees looking to improve infant and maternal health outcomes.
 
   - type: text-box
+    image: /i/2x2.jpg
     bg: isabelline
-    image: /i/justice-meeting.jpg
     content: |-
       My passion is helping mothers and families experience the unique connection and health outcomes that come with breastfeeding.
 
