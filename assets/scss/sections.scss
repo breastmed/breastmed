@@ -6,6 +6,10 @@ main {
 #site > main > section {
   padding: $verticalPadding 0;
 
+  img {
+    max-width: 100%;
+  }
+
   &.bg-isabelline { background-color: $isabelline; }
   &.bg-rosy-brown { background-color: $rosyBrown; }
   &.bg-blue-sapphire { background-color: $blueSapphire; }

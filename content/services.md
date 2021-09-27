@@ -7,6 +7,17 @@ menu:
   main:
     weight: 20
 sections:
+  - type: plain
+    content: |-
+      **Please note:** *All consultation fees are payable in advance.*
+
+      ### Gift cards
+
+      Gift vouchers can be purchased [here](https://checkout.stripe.com/pay/cs_live_a19q4HOPTNEJqftqFleTDNIQLjGJyaYDqGmKF5GacKnmMmujQBGr6haQg7#fidkdWxOYHwnPyd1blppbHNgWjA0T11WcnZCd1ZqVFVISkhMUX1yblRWSXJUNk52VXI9b091d1w3Q1RgUE5NMW00bmM0N21AXWtDYWpfUX9hbjBoXDQwTzNjRFNWYTI1Rn1OQk90YGF2Q2ZtNTU0SH9NXWZCbycpJ3VpbGtuQH11anZgYUxhJz8nYVczNTRhYmJEN0toMTBkY1xcJyknd2BjYHd3YHcnP2twaWl4JSUl).
+      When purchasing please fill out your loved one's details in "shipping information".
+      You will be directed to a downloadable gift voucher which can be shared with the intended recipient.
+      They will be able to book on the website as normal under "gift voucher".
+      Alternatively, you may want to check their availability and book directly for them.
   - type: text-box
     bg: rosy-brown
     content: |-
@@ -66,13 +77,6 @@ sections:
 
   - type: plain
     content: |-
-      **Please note:** *All consultation fees are payable in advance.*
-
-      ### Gift cards
-
-      Gift cards are available from £50 in £10 increments.
-      Redeemable against any service and valid for 2 years.
-
       ### Cancellation policy
 
       Please let me know as soon as possible if you do not require an appointment. I appreciate lives with young children are busy and unpredictable.
