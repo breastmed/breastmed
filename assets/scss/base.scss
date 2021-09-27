@@ -17,6 +17,11 @@ body {
   color: $defaultColor;
 }
 
+*::selection {
+  background-color: $rosyBrown;
+  color: $white;
+}
+
 #site {
   height: 100vh;
   overflow-x: hidden;
