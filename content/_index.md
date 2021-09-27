@@ -6,7 +6,7 @@ hero_text: |-
   Personalised support  
   at home
 
-  [Get help today](BOOK)
+  [Book help today](BOOK)
 menu:
   main:
     weight: -10
