@@ -18,6 +18,8 @@
       };
       u.style.overflowX='hidden';
       window.addEventListener('resize',function(){f(n);});
+      if (document.readyState !== 'loading') f(Math.floor(n*Math.random()));
+      else document.addEventListener('DOMContentLoaded', function(){f(Math.floor(n*Math.random()))});
       var i,g=function(){f();i=setTimeout(g,7000)};
       g();
       var p=document.createElement('div');p.className='button pause';
