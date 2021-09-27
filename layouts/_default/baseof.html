@@ -52,6 +52,7 @@
 {{- $pageId := replace .Page.RelPermalink "/" "-" | replaceRE "\\.html$" "" | replaceRE "-$" "" | replaceRE "^$" "-home" }}
 
 <body id="page-{{ $pageId }}">
+  {{ partial "overlays" . }}
   <div id="site">
     {{ partial "header" . }}
     {{ partial "hero" . }}

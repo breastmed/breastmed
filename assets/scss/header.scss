@@ -37,7 +37,16 @@
 }
 
 @media #{$beforeFirstBreakpointStr} {
-  body.menu-open { position: fixed; }
+  body.menu-open {
+    &, #site {
+      position: fixed;
+      overflow-y: hidden;
+    }
+  }
+  #site > header > div.wrapper {
+    max-width: 100vw;
+    margin: 0;
+  }
   #menu-icon {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -69,7 +78,7 @@
       bottom: $headerPadding + $fudge;
     }
   }
-  #menu-checkbox:checked + header {
+  #menu-checkbox:checked + #site > header {
     position: fixed;
     #menu-icon {
       &:before {
@@ -125,6 +134,7 @@
     }
     ul {
       position: fixed;
+      max-width: 100vw;
       top: $headerHeight+2*$headerPadding;
       right: 0;
       bottom: 0;

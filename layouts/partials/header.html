@@ -1,24 +1,3 @@
-<script>
-window.setupBook = function(s) {
-  var x=document.getElementById('cliniko-3616999');
-  var y=document.getElementById('book-wrapper');
-  if (!s) return y.removeChild(x);
-  if (x) return;
-  x=document.createElement('iframe');x.id='cliniko-3616999';
-  x.src='https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true';
-  y.appendChild(x);
-};
-window.stopScroll = function(s) {
-  if (s) setTimeout(function(){document.body.classList.add('menu-open');},200);
-  else document.body.classList.remove('menu-open');
-}
-</script>
-<input type="checkbox" id="book-checkbox" style="display:none" onchange="setupBook(this.checked)">
-<label id="book-bg" for="book-checkbox"></label>
-<div id="book-box"><div id="book-wrapper" class="wrapper">
-<noscript><iframe id="cliniko-3616999" src="https://dr-justice-reilly.uk1.cliniko.com/bookings?embedded=true"></iframe></noscript>
-</div></div>
-<input type="checkbox" id="menu-checkbox" style="display:none" onchange="stopScroll(this.checked)">
 <header>
   <div class="wrapper">
     <a id="site-logo" href="/"><img src="/i/white-logo.svg" alt="{{ .Site.Title }}"></a>
