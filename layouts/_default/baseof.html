@@ -10,16 +10,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-  <meta property="og:title" content="{{ .Page.Title }} — {{ .Site.Title }}" />
-  <meta property="og:description" content="Dr. Justice Reilly is an IBCLC-approved lactation consultant, and a member of Lactation Consultants of Great Britain." />
-  {{ if isset .Page.Params "hero_portrait" }}
-    {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
-    {{- $portrait := $portrait_original.Resize "1500x" -}}
-    <meta property="og:image" content="{{ $portrait := $portrait.RelPermalink }}" />
+  <meta property="og:title" content="{{ .Page.Title }} — {{ .Site.Title }}">
+  <meta property="og:description" content="Dr. Justice Reilly is an IBCLC-approved lactation consultant, and a member of Lactation Consultants of Great Britain.">
   {{ if isset .Page.Params "hero_landscape" }}
     {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
-    {{- $landscape := $landscape_original.Resize "x2500" -}}
-    <meta property="og:image" content="{{ $landscape := $landscape.RelPermalink }}" />
+    {{- $landscape := $landscape_original.Fill "1200x630" -}}
+    <meta property="og:image" content="{{ $landscape := $landscape.RelPermalink }}">
+  {{ else if isset .Page.Params "hero_portrait" }}
+    {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
+    {{- $portrait := $portrait_original.Resize "1200x1200" -}}
+    <meta property="og:image" content="{{ $portrait := $portrait.RelPermalink }}">
   {{ end }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -58,6 +58,7 @@
     {{ block "main" . }}
     {{ end }}
     {{ partial "footer" . }}
+    <script>(function(){var s=document.getElementById('site'),f=function(){this.scrollTop>0?this.classList.remove('at-top'):this.classList.add('at-top')};s.addEventListener('scroll',f);f.call(s)})()</script>
   </div>
 </body>
 
