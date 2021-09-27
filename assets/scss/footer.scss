@@ -8,7 +8,9 @@
     padding: 0;
     list-style-type: none;
     overflow-x: auto;
-    align-items: center;
+    overflow-y: hidden;
+    @include transition(height);
+    align-items: flex-start;
     > li {
       width: 100vw;
       flex-shrink: 0;
