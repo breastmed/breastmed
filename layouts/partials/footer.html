@@ -17,6 +17,7 @@
         u.scrollTo({top:0,left:x,behavior:'smooth'});
       };
       u.style.overflowX='hidden';
+      u.style.paddingTop='3em';
       window.addEventListener('resize',function(){f(n);});
       if (document.readyState !== 'loading') f(Math.floor(n*Math.random()));
       else document.addEventListener('DOMContentLoaded', function(){f(Math.floor(n*Math.random()))});
