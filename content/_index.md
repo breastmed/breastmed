@@ -3,7 +3,8 @@ title: Home
 hero_portrait: /i/1x3.jpg
 hero_landscape: /i/justice-entering.jpg
 hero_text: |-
-  You don't have to brave it alone.
+  Personalised support  
+  at home
 
   [Get help today](BOOK)
 menu:
