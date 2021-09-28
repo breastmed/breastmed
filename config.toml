@@ -1,4 +1,4 @@
-baseURL = 'https://breastmed.co.uk'
+baseURL = 'https://breastmed.netlify.app'
 languageCode = 'en-gb'
 title = 'Dr. Justice Reilly — Breastfeeding Medicine'
 disableKinds = ["taxonomy", "taxonomyTerm"]

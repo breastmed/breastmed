@@ -15,11 +15,11 @@
   {{ if isset .Page.Params "hero_landscape" }}
     {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
     {{- $landscape := $landscape_original.Fill "1200x630" -}}
-    <meta property="og:image" content="{{ $landscape := $landscape.RelPermalink }}">
+    <meta property="og:image" content="{{ $landscape := $landscape.Permalink }}">
   {{ else if isset .Page.Params "hero_portrait" }}
     {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
     {{- $portrait := $portrait_original.Resize "1200x1200" -}}
-    <meta property="og:image" content="{{ $portrait := $portrait.RelPermalink }}">
+    <meta property="og:image" content="{{ $portrait := $portrait.Permalink }}">
   {{ end }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
