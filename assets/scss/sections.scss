@@ -17,6 +17,10 @@ main {
   &.bg-khaki-web { background-color: $khakiWeb; }
 }
 
+main { &, section { &, .wrapper {
+  transform-style: preserve-3d;
+}}}
+
 @import "scss/text-box";
 @import "scss/columns";
 @import "scss/cta";

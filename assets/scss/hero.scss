@@ -10,6 +10,7 @@
     bottom: 0;
     left: 0;
   }
+  transform-style: preserve-3d;
   &:not(.no-image):before { transform: translateZ(-50em) scale(1.5); }
   width: 100vw;
   min-height: 100vh;
