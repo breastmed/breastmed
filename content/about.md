@@ -1,8 +1,6 @@
 ---
 title: About Justice
-hero_portrait: /i/justice-portrait.jpg
-hero_landscape: /i/justice-landscape.jpg
-hero_text: About Justice Reilly
+hero_text: About Dr. Justice Reilly
 menu:
   main:
     weight: 1
