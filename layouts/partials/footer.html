@@ -19,28 +19,17 @@
       };
       u.style.overflowX='hidden';
       u.style.paddingTop='3em';
+      var p=document.createElement('div');
+      var r=document.createElement('div');r.className='button next';
+      var l=document.createElement('div');l.className='button prev';
       window.addEventListener('resize',function(){f(n);});
       if (document.readyState !== 'loading') f(Math.floor(n*Math.random()));
       else document.addEventListener('DOMContentLoaded', function(){f(Math.floor(n*Math.random()))});
-      var i,g=function(){f();i=setTimeout(g,7000)};
-      g();
-      var p=document.createElement('div');p.className='button pause';
-      var r=document.createElement('div');r.className='button next';
-      var l=document.createElement('div');l.className='button prev';
-      p.addEventListener('click',function(){
-        switch(this.className){
-          case 'button pause':
-            clearTimeout(i);
-            this.className='button play';
-            break;
-          case 'button play':
-            g();
-            this.className='button pause';
-            break;
-        }
-      });
-      r.addEventListener('click',function(){f(1)});
-      l.addEventListener('click',function(){f(-1)});
+      var i,g=function(d){f(d);p.className='button pause';i=setTimeout(g,7000)},s=function(d){clearTimeout(i);p.className='button play';f(d)};
+      g(n);
+      p.addEventListener('click',function(){(this.className==='button pause'?s:g)(n)});
+      r.addEventListener('click',function(){s(1)});
+      l.addEventListener('click',function(){s(-1)});
       u.after(r);
       u.after(p);
       u.after(l);
