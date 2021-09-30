@@ -20,6 +20,8 @@
 
 {{- if or (isset .Page.Params "hero_portrait") (isset .Page.Params "hero_landscape") }}
   <div id="hero">
+    <a id="to-main" href="#main"></a>
+    <script>(function(){var a=document.getElementById('to-main'),h=document.getElementById('hero'),s=document.getElementById('site');a.addEventListener('click',function(e){e.preventDefault();s.scroll({left:0,top:h.getBoundingClientRect().height,behavior:'smooth'})})})()</script>
 {{ else }}
   <div id="hero" class="no-image">
 {{ end }}

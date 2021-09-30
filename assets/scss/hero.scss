@@ -41,10 +41,17 @@
   .book-button {
     font-size: 0.5em;
   }
-  &:not(.no-image):after {
+}
+#to-main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  &:after {
     font-size: 2em;
     line-height: 1;
     content: '〉';
+    color: $white;
     position: absolute;
     bottom: 0.5em;
     left: 50%;
@@ -59,6 +66,8 @@
     #site.at-top & { opacity: 0.8; }
     animation: 3s ease-in-out 0s infinite alternate float;
   }
+  height: 0;
+  #site.at-top & { height: 6em; }
 }
 
 @keyframes float {
