@@ -1,6 +1,7 @@
 ---
-title: About Justice
-hero_text: About Dr. Justice Reilly
+title: About Dr. Justice Reilly
+hero_text: About me
+hero_portrait: /i/blue-blazer.jpg
 menu:
   main:
     weight: 1
