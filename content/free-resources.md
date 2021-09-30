@@ -8,7 +8,7 @@ menu:
 sections:
   - type: text-box
     bg: khaki-web
-    image: /i/baby-bw.jpg
+    image: /i/breastfeeding-bedroom.jpg
     content: |-
       Dr Reilly is a consultant to, or executive member of the following organisations which look to promote and protect access to breastfeeding support in the UK:
 
