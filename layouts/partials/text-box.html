@@ -1,4 +1,4 @@
-<section class="text-box bg-{{ .section.bg }} position-{{ .section.position }}">
+<section class="text-box bg-{{ .section.bg }} position-{{ .section.position | default "right" }}">
   <div class="wrapper">
     {{ if .section.image }}
       {{- $original := .images.GetMatch (replace .section.image "/i/" "") -}}

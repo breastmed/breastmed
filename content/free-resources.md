@@ -1,6 +1,6 @@
 ---
 title: Free Resources
-hero_portrait: /i/family.jpg
+hero_portrait: /i/baby-cuddle.jpg
 hero_text: Free resources
 menu:
   main:

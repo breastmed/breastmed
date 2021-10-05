@@ -19,6 +19,12 @@ sections:
         [![LCGB](/i/lcgb.png)](https://lcgb.org/find-an-ibclc-map/#!biz/id/5feb5f70f74ca15cb3446260/About)
       - |-
         Dr. Justice Reilly is an IBCLC-approved lactation consultant, and a member of Lactation Consultants of Great Britain.
+  - type: text-box
+    bg: isabelline
+    content: |-
+      The International Board Certified Lactation Consultant qualification is the highest standard of lactation education, recognised throughout the world.
+      All IBCLCs must have a minimum of 1000 hours of clinical experience supporting breast/chestfeeding dyads in addition to N approved course of education, before passing the exam.
+      If you would like to learn more about the profession you can watch [this video](https://youtu.be/rFzGSyb3IjA).
 
   - type: cta
     bg: khaki-web

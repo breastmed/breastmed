@@ -1,0 +1,13 @@
+  section.plain div.image {
+    transform: translateZ(10em) scale(0.95);
+    max-width: 70%;
+    margin-bottom: -$verticalPadding/2;
+    margin-left: auto;
+    margin-right: auto;
+    @media #{$firstBreakpointStr} {
+      max-width: 40%;
+      float: right;
+      margin-top: $verticalPadding/2;
+      margin-left: 2em;
+    }
+  }

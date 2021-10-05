@@ -4,6 +4,11 @@
       {{ .page.Content }}
     {{ else }}
       {{ $opts := dict "display" "block" }}
+      {{ if .section.image }}
+        {{- $original := .images.GetMatch (replace .section.image "/i/" "") -}}
+        {{- $image := $original.Resize "800x" -}}
+        <div class="image"><img src="{{ $image.RelPermalink }}"></div>
+      {{ end }}
       {{ .page.RenderString $opts .section.content }}
     {{ end }}
   </div>
