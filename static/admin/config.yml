@@ -1,0 +1,175 @@
+---
+backend:
+  name: git-gateway
+  branch: main
+site_url: https://breastmed.co.uk
+media_folder: content/i
+public_folder: /i/
+logo_url: /i/pewter-logo.svg
+collections:
+  - label: Pages
+    label_singular: Page
+    name: pages
+    folder: content
+    create: true
+    extension: md
+    slug: "{{slug}}"
+    preview_path: "{{slug}}/"
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        hint: "Used in the <title> head element"
+      - label: Hero (landscape)
+        name: hero_landscape
+        widget: image
+        required: false
+        hint: "The main image of the page to be used on desktops. If none given, uses portrait or plain blue"
+      - label: Hero (portrait)
+        name: hero_portrait
+        widget: image
+        required: false
+        hint: "The main image of the page to be used on mobiles. If none given, uses landscape or plain blue"
+      - label: Body
+        name: body
+        widget: hidden
+        default: ""
+      - label: Sections
+        name: sections
+        widget: list
+        types:
+          - label: Plain
+            name: plain
+            widget: object
+            fields:
+              - label: "Content"
+                name: "content"
+                widget: "markdown"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+          - label: Text box
+            name: text-box
+            widget: object
+            fields:
+              - label: Background
+                name: bg
+                widget: select
+                default: isabelline
+                options:
+                  - label: "Isabelline (beige)"
+                    value: "isabelline"
+                  - label: "Khaki"
+                    value: "khaki-web"
+                  - label: "Pewter"
+                    value: "pewter-blue"
+                  - label: "Blue Sapphire"
+                    value: "blue-sapphire"
+                  - label: "Rosy brown"
+                    value: "rosy-brown"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Image position"
+                name: position
+                widget: select
+                default: right
+                options:
+                  - label: "Right"
+                    value: "right"
+                  - label: "Left"
+                    value: "left"
+              - label: "Content"
+                name: "content"
+                widget: "markdown"
+          - label: Call to action
+            name: cta
+            widget: object
+            fields:
+              - label: Background
+                name: bg
+                widget: select
+                default: isabelline
+                options:
+                  - label: "Isabelline (beige)"
+                    value: "isabelline"
+                  - label: "Khaki"
+                    value: "khaki-web"
+                  - label: "Pewter"
+                    value: "pewter-blue"
+                  - label: "Blue Sapphire"
+                    value: "blue-sapphire"
+                  - label: "Rosy brown"
+                    value: "rosy-brown"
+              - label: "Content"
+                name: "content"
+                widget: "markdown"
+          - label: Columns
+            name: columns
+            widget: object
+            fields:
+              - label: Background
+                name: bg
+                widget: select
+                default: isabelline
+                options:
+                  - label: "Isabelline (beige)"
+                    value: "isabelline"
+                  - label: "Khaki"
+                    value: "khaki-web"
+                  - label: "Pewter"
+                    value: "pewter-blue"
+                  - label: "Blue Sapphire"
+                    value: "blue-sapphire"
+                  - label: "Rosy brown"
+                    value: "rosy-brown"
+              - label: "Columns on desktop"
+                name: "desktop_count"
+                widget: "number"
+                default: 3
+                value_type: "int"
+                min: 1
+                max: 9
+                step: 1
+              - label: "Columns on mobile"
+                name: "mobile_count"
+                widget: "number"
+                default: 1
+                value_type: "int"
+                min: 1
+                max: 6
+                step: 1
+              - label: "Content"
+                name: "content"
+                widget: "list"
+                collapsed: false
+                field:
+                  label: Content
+                  name: content
+                  widget: markdown
+      - label: Menu placement
+        name: menu
+        widget: object
+        required: false
+        fields:
+          - label: Main menu
+            name: main
+            widget: object
+            required: false
+            fields:
+              - label: Label
+                name: name
+                widget: string
+                hint: >
+                  Alternative title to use in nav.
+                  Uses title if left blank.
+                required: false
+              - label: Weight
+                name: weight
+                widget: "number"
+                required: false
+                default: 50
