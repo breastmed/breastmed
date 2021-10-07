@@ -1,7 +1,7 @@
 ---
 title: About Dr. Justice Reilly
 hero_text: About me
-hero_portrait: /i/blue-blazer.jpg
+hero_landscape: /i/justice-meeting.jpg
 menu:
   main:
     weight: 1
@@ -9,7 +9,7 @@ menu:
 sections:
   - type: text-box
     bg: isabelline
-    image: /i/justice-meeting.jpg
+    image: /i/portrait.jpg
     position: left
     content: |-
       I am an NHS Speciality Breast Doctor and International Board Certified Lactation Consultant (IBCLC).

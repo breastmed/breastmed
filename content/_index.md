@@ -23,7 +23,7 @@ sections:
     bg: isabelline
     content: |-
       The International Board Certified Lactation Consultant qualification is the highest standard of lactation education, recognised throughout the world.
-      All IBCLCs must have a minimum of 1000 hours of clinical experience supporting breast/chestfeeding dyads in addition to N approved course of education, before passing the exam.
+      All IBCLCs must have a minimum of 1000 hours of clinical experience supporting breast/chestfeeding dyads in addition to an approved course of education, before passing the exam.
       If you would like to learn more about the profession you can watch [this video](https://www.youtube.com/watch?v=rFzGSyb3IjA).
 
   - type: cta
@@ -33,8 +33,11 @@ sections:
 
       *or*
 
-      [Find out more about Breastfeeding Medicine's services](/services)
-
+      [Explore our services](/services)
+  - type: cta
+    bg: isabelline
+    content: |-
+      ![Breastfeeding consultation](/i/consultation.jpg)
   - type: columns
     desktop_count: 4
     mobile_count: 2
@@ -44,4 +47,8 @@ sections:
         [![Facebook](/i/facebook.svg)](https://www.facebook.com/breastmed/)
       - |-
         [![Instagram](/i/instagram.svg)](https://www.instagram.com/breastmed/)
+  - type: cta
+    bg: isabelline
+    content: |-
+        If you need breastfeeding support and are unable to book an appointment, please explore the [free resources](/free-resources) section.
 ---
