@@ -9,7 +9,7 @@
       </li>
     {{ end }}
   </ul>
-  <div class="cta">{{ .Page.RenderString "[Book consulation now](BOOK)" }}</div>
+  <div class="cta">{{ .Page.RenderString .Site.Data.testimonials.cta }}</div>
   <script>
     (function(){
       var u=document.currentScript.parentElement.children[0],n=u.children.length,f=function(t){
