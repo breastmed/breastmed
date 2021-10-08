@@ -28,7 +28,7 @@ sections:
 
       * Breast Sepsis Management (Mastitis and Abscess)
 
-      * Breast thrush
+      * Breast Thrush
 
       * Nipple Trauma
 
@@ -38,55 +38,61 @@ sections:
 
       * Mammary Dysbiosis
 
-      * Teaching breast milk expression by hand or mechanical pump
+      * Faltering Infant Weight
 
-      * Complex feeding challenges e.g. babies with orofacial clefts, down syndrome, premature babies and those requiring medical interventions
+      * Teaching Human Milk Expression by Hand or Mechanical Pump
 
-      * Emergency weaning for maternal medical treatment such as chemotherapy
+      * Complex Feeding Challenges e.g. Babies with Orofacial Clefts, Trisomy 21, Premature Babies and those requiring Medical Interventions
 
-      * Weaning from nipple shields
+      * Emergency Weaning for Maternal Medical Treatment such as Chemotherapy
 
-      * Low milk supply (iatrogenic and breast hypoplasia)
+      * Combination Feeding
+
+      * Unilateral Breastfeeding
+
+      * Weaning from Nipple Shields
+
+      * Low milk supply (Iatrogenic and Breast Hypoplasia)
 
       * Supplemental Nursing Systems
 
-      * Hyperlactation
+      * Hyperlactation (Oversupply)
 
       * Induced Lactation
 
       * Relactation
 
-      * Baby led weaning
+      * Baby Led Weaning
 
-      * Return to work planning
+      * Return to Work Planning
 
-      * Gentle weaning from breastfeeding
+      * Gentle Weaning from Breastfeeding
 
-      * Breastfeeding and perinatal mental health
+      * Breastfeeding and Perinatal Mental Health Considerations
 
       * Breastfeeding after Breast Surgery or Radiotherapy
 
       * Breastfeeding and Healing Milk Fistula
 
-      * Maintaining direct breastfeeding alongside bottle feeds
+      * Maintaining Direct Breastfeeding Alongside Bottle Feeds
 
       * Nursing Strikes
 
-      * Family sleep solutions for a breastfeeding family
+      * Family Sleep Solutions
 
-      * Maternal medications and interventions such as medical imaging during lactation
+      * Maternal Medications and Interventions such as Medical Imaging During Lactation
 
       * Breastfeeding and Fertility
 
-      * Lactational amenorrhoea and natural family planning
+      * Lactational Amenorrhoea and Natural Family Planning
 
       * Breastfeeding Aversion
 
-      * Dysphoria milk ejection reflex (DMER)
+      * Dysphoric Milk Ejection Reflex (DMER)
 
-      * Natural term Breastfeeding
+      * Natural Term Breastfeeding
 
-      * Maintaining breastfeeding during family separation
+      * Maintaining Breastfeeding during Family Separation
 menu:
   main:
     weight: 20
