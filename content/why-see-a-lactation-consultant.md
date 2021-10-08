@@ -1,5 +1,5 @@
 ---
-title: Why see a lactation consultant?
+title: Why see an IBCLC?
 hero_portrait: /i/family.jpg
 hero_text: Why see a lactation consultant?
 sections:
@@ -90,5 +90,5 @@ sections:
 menu:
   main:
     weight: 20
-    name: Why see a Lactation Consultant?
+    name: Why see an IBCLC?
 ---
