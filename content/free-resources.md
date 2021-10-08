@@ -7,9 +7,9 @@ sections:
     bg: khaki-web
     image: /i/breastfeeding-bedroom.jpg
     content: >-
-      Dr Reilly is a consultant to, or executive member of the following
-      organisations which look to promote and protect access to breastfeeding
-      support in the UK:
+      Dr Reilly is a consultant to, or member of the following organisations
+      which look to promote and protect access to breastfeeding support in the
+      UK:
 
 
       * Breastfeeding for Doctors ([@milkymedics](https://twitter.com/milkymedics))
@@ -28,9 +28,7 @@ sections:
       ##### Inclusivity
 
 
-      Dr Reilly firmly believes skilled lactation support should be free and available to all.  
-
-      She recognises that some parents face particular barriers to healthcare based on income, race, sexuality and gender identity.
+      Dr Reilly firmly believes skilled lactation support should be free and available to all.  She recognises that some parents face particular barriers to healthcare based on income, race, sexuality and gender identity.
 
 
       Please be assured that Dr Reilly has an inclusive practice. If you are unable to access breastfeeding support privately, please do get in touch and she will try to offer support via email and signpost to appropriate resources.  Below are approved free resources for all stages of breastfeeding/chestfeeding.  
