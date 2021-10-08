@@ -173,3 +173,24 @@ collections:
                 widget: "number"
                 required: false
                 default: 50
+  - label: Testimonials
+    name: testimonials
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: Testimonials
+        name: testimonials
+        preview_path: ""
+        file: data/testimonials.yml
+        fields:
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - label: Quote
+                name: quote
+                widget: string
+              - label: Source
+                name: source
+                widget: string
