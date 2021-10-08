@@ -14,7 +14,7 @@ sections:
 
       There are currently only a handful of doctors in the UK who hold the IBCLC qualification, however over time we hope to increase access to this level of care within the NHS.
 
-      Seeing an IBCLC pre-emptively, or as soon as problems arise can help you get the care you need, when you need it, and avoid future issues.  It can also help redefine your feeding goals and a way that works for your family.
+      Seeing an IBCLC pre-emptively, or as soon as problems arise can help you get the care you need, when you need it, and avoid future issues.  It can also help redefine your feeding goals and find a way that works for your family.
   - type: plain
     image: /i/feeding-smile.jpg
     content: >-
