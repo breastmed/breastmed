@@ -6,8 +6,7 @@ hero_text: Find what's right for you
 sections:
   - type: plain
     content: >-
-      **Please note:** *All consultation fees are payable in advance.*
-
+      
 
       ### Gift cards
 
@@ -18,9 +17,7 @@ sections:
 
       You will be directed to a downloadable gift voucher which can be shared with the intended recipient.
 
-      They will be able to book on the website as normal under "gift voucher".
-
-      Alternatively, you may want to check their availability and book directly for them.
+      They will be able to book on the website as normal under "redeem gift voucher".
   - type: text-box
     bg: rosy-brown
     content: >-
