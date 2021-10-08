@@ -70,7 +70,7 @@ sections:
       Breastfeeding doesn't always go to plan and many mothers are left feeling guilty or with feelings of loss when they haven't breastfed, or haven't breastfed for as long as they wanted. I have a unique perspective from speaking to women in breast clinic in their 50s and 60s who are still trying to come to terms with this sense of failure. Whether it was 20 days or 20 years ago, I am able to help you process what happened and potentially offer some answers to your questions.
 
 
-      This can also be an important step in your next breastfeeding journey, and provide closure before your next baby arrives. We can come up with an individualised plan to optimise breastfeeding the next time based on your particular challenges. A breastfeeding debrief and understanding can also help you make peace with your own journey so that you are able to fully support a loved one such as a daughter or granddaughter.  To book please select a standard telehealth or home visit appointment. 
+      This can also be an important step in your next breastfeeding journey, and provide closure before your next baby arrives. We can come up with an individualised plan to optimise breastfeeding the next time based on your particular challenges. A breastfeeding debrief and understanding can also help you make peace with your own journey so that you are able to fully support a loved one such as a daughter or granddaughter.  
 
 
       ### 1 hour appointment
