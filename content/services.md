@@ -36,7 +36,7 @@ sections:
       * Home consultations include a written report within 48 hours which can be shared with your medical team, legal representative or employer.
 
 
-      ### £200  I  1 hour
+      ### £200    1 hour
 
 
       [Book now](BOOK)
@@ -53,7 +53,7 @@ sections:
       Written reports are available within 48 hours and can be shared with relevant professionals.
 
 
-      ### £100  I  1 hour
+      ### £100    1 hour
 
 
       [Book now](BOOK)
