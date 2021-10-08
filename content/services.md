@@ -6,8 +6,6 @@ hero_text: Find what's right for you
 sections:
   - type: plain
     content: >-
-      
-
       ### Gift cards
 
 
@@ -15,9 +13,9 @@ sections:
 
       When purchasing please fill out your loved one's details in "shipping information".
 
-      You will be directed to a downloadable gift voucher which can be shared with the intended recipient.
+      You can then [download the gift voucher](https://breastmed.co.uk/thank-you-geahehioi8w/) which can be shared with the intended recipient.
 
-      They will be able to book on the website as normal under "redeem gift voucher".
+      They will be able to book on the website as normal under "Redeem Gift Voucher" and will need to provide the name of the gift giver upon confirmation.
   - type: text-box
     bg: rosy-brown
     content: >-
