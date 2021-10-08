@@ -64,7 +64,7 @@ sections:
   - type: text-box
     bg: rosy-brown
     content: >-
-      ## Debrief 
+      ## Debrief
 
 
       Breastfeeding doesn't always go to plan and many mothers are left feeling guilty or with feelings of loss when they haven't breastfed, or haven't breastfed for as long as they wanted. I have a unique perspective from speaking to women in breast clinic in their 50s and 60s who are still trying to come to terms with this sense of failure. Whether it was 20 days or 20 years ago, I am able to help you process what happened and potentially offer some answers to your questions.
@@ -73,28 +73,29 @@ sections:
       This can also be an important step in your next breastfeeding journey, and provide closure before your next baby arrives. We can come up with an individualised plan to optimise breastfeeding the next time based on your particular challenges. A breastfeeding debrief and understanding can also help you make peace with your own journey so that you are able to fully support a loved one such as a daughter or granddaughter.  To book please select a standard telehealth or home visit appointment. 
 
 
-      ### 1 hour  
+      ### 1 hour appointment
 
 
       [Book now](BOOK)
     position: left
   - type: text-box
     bg: rosy-brown
-    image: /i/blue-blazer.jpg
-    content: >-
-      
-      ## Professional Services
-
-
-      By arrangement only.
-
-
-      Dr Reilly is able to provide expert testimony to family courts regarding the needs of the breastfeeding dyad.
-
-      She also welcomes integrated care with medical colleagues where lactation and/or breastfeeding management may comprise part of the medical management.
-
-      She is available to speak at educational events such as conferences and departmental teaching where event organisers and sponsors are compliant with the WHO International code of marketing of breast milk substitutes.
     position: left
+    content: >-
+      ## Antenatal Consultation
+
+
+
+
+      You have researched your travel system, and maybe even have narrowed down a name, but have you  got all the information you need about how you will feed your baby?  You may have already decided you want to breastfeed but most people in the UK do not see breastfeeding close up until they have their first baby, which puts them at a disadvantage.  This consultation option gives you the opportunity to learn what to expect in those early weeks, and how to prepare.  You will also have text support on hand within hours of your baby's arrival.  
+
+
+
+
+      ### 1 hour appointment, with text support the week of your baby's birth 
+
+
+      [Book Now](BOOK)
   - type: plain
     content: >-
       ### Cancellation policy
@@ -106,6 +107,22 @@ sections:
       Cancellation over 48 hours prior to appointment -- 80% refund.
 
       Cancellation within 48 hours -- no refund but may reschedule by mutual agreement.
+  - type: text-box
+    bg: rosy-brown
+    image: /i/blue-blazer.jpg
+    content: >-
+      ## Professional Services
+
+
+      By prior arrangement.
+
+
+      Dr Reilly is able to provide expert testimony to family courts regarding the needs of the breastfeeding dyad.
+
+      She also welcomes integrated care with medical colleagues where lactation and/or breastfeeding management may comprise part of the medical management.
+
+      She is available to speak at educational events such as conferences and departmental teaching where event organisers and sponsors are compliant with the WHO International code of marketing of breast milk substitutes.
+    position: left
 menu:
   main:
     weight: 20
