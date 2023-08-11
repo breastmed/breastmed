@@ -22,19 +22,19 @@ sections:
       ## Home visit
 
 
-      A 1:1 consultation gives us the time to explore your medical, birth and breastfeeding history to date, as well as your breastfeeding goals. A home visit allows us to use your own furniture for positioning and attachment which can be repeated after I have left. Babies should be fed responsively, but you may want to offer milk around 2 hours before I arrive so we will be able to talk before they need to feed again. I understand babies are unpredictable however, and the benefit of a home visit is that we can go entirely at your baby's pace. You won't have to worry about your baby crying in the car seat or being late because they needed a nappy change just as you're about to leave.
+      A 1:1 consultation gives us the time to explore your medical, birth and breastfeeding history to date, as well as your breastfeeding goals. A home visit allows us to use your own furniture for positioning and attachment which can be repeated after I have left. Babies should be fed responsively, but you may want to offer milk around 2 hours before I arrive so we will be able to talk before they need to feed again. I understand babies are unpredictable however, and the benefit of a home visit is that we can go entirely at your baby's pace. You won't have to worry about your baby crying in the car seat or being late because they needed a nappy change just as you're about to leave.  It is advisable to inform your NHS team of your home visit appointment time. 
 
 
-      Most families require only 1 home visit and I am available for text or email support for as long as you need it.
+      Most families require only 1 home visit and I am available for email support for as long as you need it.
 
 
       * Home consultations include a written report within 48 hours which can be shared with your medical team, legal representative or employer.
 
 
-      ### £200    
+      ### £300
 
 
-      ### 1 hour appointment, with unlimited text support
+      ### 1.5 hour appointment, with text support for 2 weeks. 
 
 
       [Book now](BOOK)
@@ -45,16 +45,16 @@ sections:
       ## Online consultation
 
 
-      Most aspects of a lactation consultation can be delivered in a telehealth appointment.   Videos of your baby feeding and weight charts can be sent and reviewed in advance to make the most of the appointment.   This may be more appropriate for situations such as devising a breastfeeding/expressing plan for faltering weight, or return to work, negotiating nursing boundaries with your toddler, or how to maximise family sleep.
+      Most aspects of a lactation consultation can be delivered in a telehealth appointment.   Videos of your baby feeding and weight charts can be sent and reviewed in advance to make the most of the appointment.   This may be more appropriate for situations such as devising a breastfeeding/expressing plan for faltering weight, or return to work, negotiating nursing boundaries with your toddler, or how to maximise family sleep.  Private prescriptions are invoiced separately at a cost of £30 per prescription, plus the medication cost, and are delivered to UK addresses only.  
 
 
-      Written reports are available within 48 hours and can be shared with relevant professionals.
+      Written reports are available within 48 hours and can be shared with relevant professionals.  The report can be shared with medical doctors in your home country to aid prescribing. 
 
 
-      ### £100    
+      ### £120
 
 
-      ### 1 hour appointment, with unlimited text support
+      ### 45 Minute appointment
 
 
       [Book now](BOOK)
@@ -71,7 +71,10 @@ sections:
       This can also be an important step in your next breastfeeding journey, and provide closure before your next baby arrives. We can come up with an individualised plan to optimise breastfeeding the next time based on your particular challenges. A breastfeeding debrief and understanding can also help you make peace with your own journey so that you are able to fully support a loved one such as a daughter or granddaughter.  
 
 
-      ### 1 hour appointment
+      ### 1 hour virtual appointment
+
+
+      ### £150
 
 
       [Book now](BOOK)
@@ -80,17 +83,30 @@ sections:
     bg: rosy-brown
     position: left
     content: >-
-      ## Antenatal Consultation
+      ## Clinic Consultations
+
+
+      T﻿hese consultations are available at Spiersbridge Business Park, G46.
+
+
+      All aspects of the at home consultation are available as well as prescribing, blood tests and therapeutic breast ultrasound.  
+
+
+      ### 1 hour appointment, with text support for 1 week 
+
+
+      ### £220  
 
 
 
 
-      You have researched your travel system, and maybe even have narrowed down a name, but have you  got all the information you need about how you will feed your baby?  You may have already decided you want to breastfeed but most people in the UK do not see breastfeeding close up until they have their first baby, which puts them at a disadvantage.  This consultation option gives you the opportunity to learn what to expect in those early weeks, and how to prepare.  You will also have text support on hand within hours of your baby's arrival.  
+      ### 30 minute Therapeutic Breast Ultrasound appointment
 
 
+      P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.
 
 
-      ### 1 hour appointment, with text support the week of your baby's birth 
+      ### £100 
 
 
       [Book Now](BOOK)
