@@ -93,12 +93,10 @@ sections:
       All aspects of the at home consultation are available as well as prescribing, blood tests and therapeutic breast ultrasound.  
 
 
-      ### £220, 1 hour appointment, with text support for 1 week 
+      ### £220, 1 hour appointment, with text support for 1 week
 
 
-      ### £100, 30 Minute Follow Up appointment 
-
-
+      ### £100, 30 Minute Follow Up appointment
 
 
       ### £100, 30 minute Therapeutic Breast Ultrasound appointment
@@ -107,12 +105,10 @@ sections:
       P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.  A series of 3 treatments is recommended, but those who cannot attend return appointments have the option of kinesio breast taping to aid lymphatic drainage.  This usually remains applied for 2-3 days and can be removed at home. 
 
 
-
-
       ### £200  Low Milk Supply Investigations 30 Minute appointment
 
 
-      T﻿his appointment includes a breast exam and pre- and post- feed or milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG.  
+      T﻿his appointment includes a breast exam, a full blood panel including pre- and post- feed /milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG.   
 
 
       [Book Now](BOOK)
