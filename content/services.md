@@ -103,7 +103,7 @@ sections:
       ### £100, 30 minute Therapeutic Breast Ultrasound appointment
 
 
-      P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.  A series of 3 treatments is recommended, but those who cannot attend return appointments have the option of kinesio breast taping to aid lymphatic drainage.  This usually remains applied for 2-3 days and can be removed at home. 
+      This is a non-invasive targeted treatment for blocked ducts, and mastitis.  Gentle heat pulses and sound waves reduce lymphatic congestion and promote milk flow.  P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.  A series of 3 treatments is recommended, but those who cannot attend return appointments have the option of kinesio breast taping to aid lymphatic drainage.  This usually remains applied for 2-3 days and can be removed at home. 
 
 
       ### £200  Low Milk Supply Investigations 30 Minute appointment
