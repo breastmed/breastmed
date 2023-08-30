@@ -5,7 +5,7 @@ hero_text: Why see a lactation consultant?
 sections:
   - type: text-box
     bg: khaki-web
-    image: /i/justice-helping.jpg
+    image: /i/side-lying-stethoscope.jpg
     position: left
     content: >-
       Lactation consultants have expertise in the biology and physiology of
@@ -14,7 +14,7 @@ sections:
 
       There are currently only a handful of doctors in the UK who hold the IBCLC qualification, however over time we hope to increase access to this level of care within the NHS.
 
-      Seeing an IBCLC pre-emptively, or as soon as problems arise can help you get the care you need, when you need it, and avoid future issues.  It can also help redefine your feeding goals and find a way that works for your family.
+      Seeing an IBCLC pre-emptively, or as soon as problems arise can help you get the care you need, when you need it, and avoid future issues.  It can also help redefine your feeding goals and find a way that works for your family.  Whether you have complex feeding concerns, or you just want to feel confident in the signs your baby is getting enough milk, we are here to answer all your questions and make feeding your baby easier and more enjoyable.
   - type: plain
     image: /i/sns-smile.jpg
     content: >-
