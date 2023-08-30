@@ -21,7 +21,7 @@ sections:
 
       I also form part of many committees looking to improve infant and maternal health outcomes.
   - type: text-box
-    image: /i/2x2.jpg
+    image: /i/red-scrubs-jane-breastfeeding.jpg
     bg: isabelline
     content: >-
       My passion is helping mothers and families experience the unique
