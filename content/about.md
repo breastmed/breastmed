@@ -1,7 +1,7 @@
 ---
 title: About Dr. Justice Reilly
 hero_text: About me
-hero_landscape: /i/clinic-desk-smile.jpg
+hero_landscape: /i/weighing-smiles.jpg
 sections:
   - type: text-box
     bg: isabelline
