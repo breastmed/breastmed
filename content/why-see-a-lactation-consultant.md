@@ -32,13 +32,13 @@ sections:
 
       * Nipple Trauma
 
-      * Infant oral assessment
+      * Infant Oral Assessment
 
       * Breast examination
 
       * Mammary Dysbiosis
 
-      * Faltering Infant Weight
+      * Faltering Infant Weight (Slow Weight Gain)
 
       * Teaching Human Milk Expression by Hand or Mechanical Pump
 
@@ -52,15 +52,15 @@ sections:
 
       * Weaning from Nipple Shields
 
-      * Low milk supply (Iatrogenic and Breast Hypoplasia)
+      * Low milk supply (Iatrogenic, Breast Hypoplasia, and Secondary Low Supply)
 
       * Supplemental Nursing Systems
 
       * Hyperlactation (Oversupply)
 
-      * Induced Lactation
+      * Induced Lactation (e.g. adoption or for conursing)
 
-      * Relactation
+      * Relactation (birthing parent brings back or increases their milk supply)
 
       * Baby Led Weaning
 
