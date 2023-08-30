@@ -6,7 +6,7 @@ hero_text: |-
   at home
 
   [Book help today](BOOK)
-hero_portrait: /i/clinic-desk-smile.jpg
+hero_portrait: ""
 sections:
   - type: columns
     desktop_count: 4
@@ -28,6 +28,7 @@ sections:
 
       If you would like to learn more about the profession you can watch [this video](https://www.youtube.com/watch?v=rFzGSyb3IjA).
     position: left
+    image: /i/clinic-desk-smile.jpg
   - type: cta
     bg: khaki-web
     content: |-
