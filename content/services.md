@@ -1,7 +1,7 @@
 ---
 title: Services
 hero_landscape: /i/consultation.jpg
-hero_portrait: /i/breastfeeding-after.jpg
+hero_portrait: /i/breastfeed-smile.jpg
 hero_text: Find what's right for you
 sections:
   - type: plain
