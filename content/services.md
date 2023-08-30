@@ -59,6 +59,7 @@ sections:
 
       [Book now](BOOK)
     position: left
+    image: /i/telehealth-flower-background.jpg
   - type: text-box
     bg: rosy-brown
     content: >-
@@ -115,6 +116,7 @@ sections:
 
 
       [Book Now](BOOK)
+    image: /i/tus-feeding-close-up.jpg
   - type: plain
     content: >-
       ### Cancellation policy
