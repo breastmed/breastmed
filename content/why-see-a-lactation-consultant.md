@@ -16,7 +16,7 @@ sections:
 
       Seeing an IBCLC pre-emptively, or as soon as problems arise can help you get the care you need, when you need it, and avoid future issues.  It can also help redefine your feeding goals and find a way that works for your family.
   - type: plain
-    image: /i/feeding-smile.jpg
+    image: /i/sns-smile.jpg
     content: >-
       ## Experience
 
