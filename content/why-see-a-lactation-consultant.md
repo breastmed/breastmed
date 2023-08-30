@@ -1,6 +1,6 @@
 ---
 title: Why see an IBCLC?
-hero_portrait: /i/family.jpg
+hero_portrait: /i/orchid-motherhood-statue.jpg
 hero_text: Why see a lactation consultant?
 sections:
   - type: text-box
