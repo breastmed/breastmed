@@ -45,16 +45,16 @@ sections:
       ## Online consultation
 
 
-      Most aspects of a lactation consultation can be delivered in a telehealth appointment.   Videos of your baby feeding and weight charts can be sent and reviewed in advance to make the most of the appointment.   This may be more appropriate for situations such as devising a breastfeeding/expressing plan for faltering weight, or return to work, negotiating nursing boundaries with your toddler, or how to maximise family sleep.  Private prescriptions are invoiced separately at a cost of £30 per prescription, plus the medication cost, and are delivered to UK addresses only.  
+      Most aspects of a lactation consultation can be delivered in a telehealth appointment.   Videos of your baby feeding and weight charts can be sent and reviewed in advance to make the most of the appointment.   This may be more appropriate for situations such as devising a breastfeeding/expressing plan for faltering weight, or return to work, negotiating nursing boundaries with your toddler, or how to maximise family sleep.  Private prescriptions are invoiced separately at a cost of £20 per prescription, plus the medication cost, and are delivered to UK addresses only.  
 
 
       Written reports are available within 48 hours and can be shared with relevant professionals.  The report can be shared with medical doctors in your home country to aid prescribing. 
 
 
-      ### £120
+      ### £120, 45 Minute appointment   
 
 
-      ### 45 Minute appointment
+      ### £65, 30 Minute Follow Up Appointment (book also if you have been referred by your GP or IBCLC)
 
 
       [Book now](BOOK)
@@ -92,21 +92,26 @@ sections:
       All aspects of the at home consultation are available as well as prescribing, blood tests and therapeutic breast ultrasound.  
 
 
-      ### 1 hour appointment, with text support for 1 week 
+      ### £220, 1 hour appointment, with text support for 1 week 
 
 
-      ### £220  
+      ### £100, 30 Minute Follow Up appointment 
 
 
 
 
-      ### 30 minute Therapeutic Breast Ultrasound appointment
+      ### £100, 30 minute Therapeutic Breast Ultrasound appointment
 
 
-      P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.
+      P﻿lease bring your baby or breast pump to these appointments, as treatment works best when you are able to remove milk afterwards.  A series of 3 treatments is recommended, but those who cannot attend return appointments have the option of kinesio breast taping to aid lymphatic drainage.  This usually remains applied for 2-3 days and can be removed at home. 
 
 
-      ### £100 
+
+
+      ### £200  Low Milk Supply Investigations 30 Minute appointment
+
+
+      T﻿his appointment includes a breast exam and pre- and post- feed or milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG.  
 
 
       [Book Now](BOOK)
