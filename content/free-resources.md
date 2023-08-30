@@ -5,7 +5,7 @@ hero_text: Free resources
 sections:
   - type: text-box
     bg: khaki-web
-    image: /i/breastfeeding-bedroom.jpg
+    image: /i/knitted-breast-colostrum-syringe.jpg
     content: >-
       Dr Reilly is a consultant to, or member of the following organisations
       which look to promote and protect access to breastfeeding support in the
