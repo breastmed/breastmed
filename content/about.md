@@ -8,7 +8,7 @@ sections:
     image: /i/portrait.jpg
     position: left
     content: >-
-      I am an NHS Speciality Breast Doctor and International Board Certified
+      I am a Speciality Breast Doctor and International Board Certified
       Lactation Consultant (IBCLC).
 
       I had my first baby in 2014 and was struck by how limited breastfeeding knowledge and support was.
@@ -38,8 +38,13 @@ sections:
   - type: cta
     bg: isabelline
     content: "*Dr Reilly is able to offer [consultations in your own
-      home](/services#home-visit) within a 30 minute drive of Glasgow G43, or
-      [remotely](/services#online-consultation).*"
+      home](/services#home-visit) within a 30 minute drive of Glasgow G43, at
+      the Breastmed clinic at Spiersbridge Business Park G46, or as a Telehealth
+      appointment anywhere in the world.  Email contact@breastmed.co.uk if your
+      enquiry is urgent and availability is limited on the booking
+      system.  Written referrals are taken via email from other doctors and
+      IBCLCs.  Private prescriptions are £20 plus the medication cost, and can
+      only be issued to UK addresses."
 menu:
   main:
     weight: 1
