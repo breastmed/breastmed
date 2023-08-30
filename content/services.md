@@ -39,6 +39,7 @@ sections:
 
       [Book now](BOOK)
     position: left
+    image: /i/1x2.jpg
   - type: text-box
     bg: rosy-brown
     content: >-
