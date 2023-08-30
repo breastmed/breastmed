@@ -58,7 +58,7 @@ sections:
 
       * Hyperlactation (Oversupply)
 
-      * Induced Lactation (e.g. adoption or for conursing)
+      * Induced Lactation (e.g. Adoption or Allonursing)
 
       * Relactation (birthing parent brings back or increases their milk supply)
 
