@@ -1,7 +1,7 @@
 ---
 title: About Dr. Justice Reilly
 hero_text: About me
-hero_landscape: /i/justice-meeting.jpg
+hero_landscape: /i/red-scrubs-jane-breastfeeding.jpg
 sections:
   - type: text-box
     bg: isabelline
