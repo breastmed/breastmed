@@ -1,20 +1,20 @@
 {{ $images := .Scratch.Get "images" }}
-{{ if and (isset .Page.Params "hero_portrait") (isset .Page.Params "hero_landscape") }}
-  {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
-  {{- $portrait := $portrait_original.Resize "1500x" -}}
+{{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
+{{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
+{{ if and $portrait_original $landscape_original }}
+  {{- $portrait := $portrait_original.Resize "1500x webp q75" -}}
   {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
-  {{- $landscape := $landscape_original.Resize "x2500" -}}
+  {{- $landscape := $landscape_original.Resize "x2500 webp q75" -}}
   <style>
     @media(orientation:landscape){#hero:before{background-image:url({{ $landscape.RelPermalink }});}}
     @media(orientation:portrait){#hero:before{background-image:url({{ $portrait.RelPermalink }});}}
   </style>
-{{ else if isset .Page.Params "hero_portrait" }}
+{{ else if $portrait_original }}
   {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
-  {{- $portrait := $portrait_original.Resize "1500x" -}}
+  {{- $portrait := $portrait_original.Resize "1500x webp q75" -}}
   <style>#hero:before{background-image:url({{ $portrait.RelPermalink }});}</style>
-{{ else if isset .Page.Params "hero_landscape" }}
-  {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
-  {{- $landscape := $landscape_original.Resize "x2500" -}}
+{{ else if $landscape_original }}
+  {{- $landscape := $landscape_original.Resize "x2500 webp q75" -}}
   <style>#hero:before{background-image:url({{ $landscape.RelPermalink }});}</style>
 {{ end }}
 

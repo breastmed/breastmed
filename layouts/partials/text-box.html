@@ -2,7 +2,7 @@
   <div class="wrapper">
     {{ if .section.image }}
       {{- $original := .images.GetMatch (replace .section.image "/i/" "") -}}
-      {{- $image := $original.Resize "800x" -}}
+      {{- $image := $original.Resize "800x webp q75" -}}
       <img src="{{ $image.RelPermalink }}">
     {{ end }}
     <div class="text-box">

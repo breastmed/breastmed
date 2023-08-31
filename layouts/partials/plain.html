@@ -6,7 +6,7 @@
       {{ $opts := dict "display" "block" }}
       {{ if .section.image }}
         {{- $original := .images.GetMatch (replace .section.image "/i/" "") -}}
-        {{- $image := $original.Resize "800x" -}}
+        {{- $image := $original.Resize "800x webp q75" -}}
         <div class="image"><img src="{{ $image.RelPermalink }}"></div>
       {{ end }}
       {{ .page.RenderString $opts .section.content }}

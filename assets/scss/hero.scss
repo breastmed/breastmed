@@ -3,19 +3,24 @@
     background-color: $pewterBlue;
     background-position: center center;
     background-size: cover;
-    content:'';
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
   }
+
   transform-style: preserve-3d;
-  &:not(.no-image):before { transform: translateZ(-50em) scale(1.5); }
+
+  &:not(.no-image):before {
+    transform: translateZ(-50em) scale(1.5);
+  }
+
   width: 100vw;
   min-height: 100vh;
   box-sizing: border-box;
-  padding-top: $headerHeight + 2*$verticalPadding;
+  padding-top: $headerHeight +2*$verticalPadding;
   color: $white;
   font-family: $secondaryFontFamily;
   text-align: center;
@@ -23,6 +28,7 @@
   top: 0;
   display: flex;
   align-items: flex-end;
+
   .wrapper {
     max-width: $secondBreakpoint*.7;
     text-shadow: 0 0 0.8em #000;
@@ -33,20 +39,24 @@
     justify-content: center;
     height: 100%;
     top: 0;
+    margin-bottom: 2em;
   }
-  &:not(.no-image) .wrapper { transform: translateZ(-10em) scale(1.1); }
+
   &.no-image {
     min-height: 20em;
   }
+
   .book-button {
     font-size: 0.5em;
   }
 }
+
 #to-main {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+
   &:after {
     font-size: 2em;
     line-height: 1;
@@ -63,14 +73,27 @@
     pointer-events: none;
     @include transition(opacity);
     opacity: 0;
-    #site.at-top & { opacity: 0.8; }
+
+    #site.at-top & {
+      opacity: 0.8;
+    }
+
     animation: 3s ease-in-out 0s infinite alternate float;
   }
+
   height: 0;
-  #site.at-top & { height: 6em; }
+
+  #site.at-top & {
+    height: 6em;
+  }
 }
 
 @keyframes float {
-  from { transform:translateY(0) rotate(90deg); }
-  to { transform:translateY(-0.5em) rotate(90deg); }
+  from {
+    transform: translateY(0) rotate(90deg);
+  }
+
+  to {
+    transform: translateY(-0.5em) rotate(90deg);
+  }
 }
