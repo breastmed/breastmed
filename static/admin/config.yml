@@ -32,6 +32,10 @@ collections:
         widget: image
         required: false
         hint: "The main image of the page to be used on mobiles. If none given, uses landscape or plain blue"
+      - label: "Hero text"
+        name: "hero_text"
+        widget: "markdown"
+        required: false
       - label: Body
         name: body
         widget: hidden
