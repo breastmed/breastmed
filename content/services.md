@@ -52,10 +52,10 @@ sections:
       Written reports are available within 48 hours and can be shared with relevant professionals.  The report can be shared with medical doctors in your home country to aid prescribing. 
 
 
-      ### £120, 45 Minute appointment   
+      ### £120, 45 Minute appointment
 
 
-      ### £65, 30 Minute Follow Up Appointment (book also if you have been referred by your GP or IBCLC)
+      ### £65, 30 Minute Follow Up Appointment 
 
 
       [Book now](BOOK)
