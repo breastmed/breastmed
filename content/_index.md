@@ -1,12 +1,12 @@
 ---
 title: Home
 hero_landscape: /i/justice-entering.jpg
+hero_portrait: ""
 hero_text: |-
-  Personalised support  
-  at home
+  Personalised\
+  lactation support
 
   [Book help today](BOOK)
-hero_portrait: ""
 sections:
   - type: columns
     desktop_count: 4
