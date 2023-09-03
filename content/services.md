@@ -1,6 +1,6 @@
 ---
 title: Services
-hero_landscape: /i/consultation.jpg
+hero_landscape: ""
 hero_portrait: /i/breastfeed-smile.jpg
 hero_text: Find what's right for you
 sections:
@@ -16,6 +16,7 @@ sections:
       You can then [download the gift voucher](https://breastmed.co.uk/thank-you-geahehioi8w/) which can be shared with the intended recipient.
 
       They will be able to book on the website as normal under "Redeem Gift Voucher" and will need to provide the name of the gift giver upon confirmation.
+    image: /i/justice-entering.jpg
   - type: text-box
     bg: rosy-brown
     content: >-
@@ -39,7 +40,7 @@ sections:
 
       [Book now](BOOK)
     position: left
-    image: /i/1x2.jpg
+    image: /i/consultation.jpg
   - type: text-box
     bg: rosy-brown
     content: >-
