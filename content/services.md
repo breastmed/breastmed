@@ -9,7 +9,7 @@ sections:
       ### Gift cards
 
 
-      Gift vouchers can be purchased[ here.](https://buy.stripe.com/dR601dggA2Nm45afYY)
+      Gift vouchers can be purchased in £10 increments [here](https://book.stripe.com/6oE4htd4o5ZycBGaEF)[](https://buy.stripe.com/dR601dggA2Nm45afYY)
 
       When purchasing please fill out your loved one's details in "shipping information".
 
