@@ -11,7 +11,7 @@ sections:
       to send to your loved one by right clicking/long tapping and choosing to
       save.
 
-      They will be able to book on the website as normal under "Redeem Gift Voucher".
+      They will be able to book on the website as normal under "Redeem Gift Voucher".  Personalised gift vouchers can be emailed upon request to contact@breastmed.co.uk. 
 
 
       ![Gift voucher](/i/20230904_211451_0000.png)
