@@ -15,7 +15,10 @@ sections:
 
       You can then [download the gift voucher](https://breastmed.co.uk/thank-you-geahehioi8w/) which can be shared with the intended recipient.
 
-      They will be able to book on the website as normal under "Redeem Gift Voucher" and will need to provide the name of the gift giver upon confirmation.
+      They will be able to book on the website as normal under "Redeem Gift Voucher" and will be asked to provide the name of the gift giver upon confirmation.
+
+
+      P﻿ersonalised gift vouchers are available upon request to contact@breastmed.co.uk.
     image: /i/justice-entering.jpg
   - type: text-box
     bg: rosy-brown
