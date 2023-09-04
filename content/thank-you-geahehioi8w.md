@@ -14,5 +14,5 @@ sections:
       They will be able to book on the website as normal under "Redeem Gift Voucher".
 
 
-      ![Gift voucher](/i/gift-voucher.png)
+      ![Gift voucher](/i/20230904_211451_0000.png)
 ---
