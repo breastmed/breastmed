@@ -1,7 +1,7 @@
 ---
 title: Thank you
 hero_landscape: /i/consultation.jpg
-hero_portrait: /i/1x2.jpg
+hero_portrait: /i/telehealth-flower-background.jpg
 hero_text: Thank you for your order
 private: true
 sections:
