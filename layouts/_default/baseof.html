@@ -12,14 +12,16 @@
 
   <meta property="og:title" content="{{ .Page.Title }} — {{ .Site.Title }}">
   <meta property="og:description" content="Dr. Justice Reilly is an IBCLC-approved lactation consultant, and a member of Lactation Consultants of Great Britain.">
-  {{ if isset .Page.Params "hero_landscape" }}
-    {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
+  {{- $landscape_original := $images.GetMatch (replace .Page.Params.hero_landscape "/i/" "") -}}
+  {{ if $landscape_original }}
     {{- $landscape := $landscape_original.Fill "1200x630" -}}
     <meta property="og:image" content="{{ $landscape := $landscape.Permalink }}">
-  {{ else if isset .Page.Params "hero_portrait" }}
+  {{ else }}
     {{- $portrait_original := $images.GetMatch (replace .Page.Params.hero_portrait "/i/" "") -}}
-    {{- $portrait := $portrait_original.Resize "1200x1200" -}}
-    <meta property="og:image" content="{{ $portrait := $portrait.Permalink }}">
+    {{ if $portrait_original }}
+      {{- $portrait := $portrait_original.Resize "1200x1200" -}}
+      <meta property="og:image" content="{{ $portrait := $portrait.Permalink }}">
+    {{ end }}
   {{ end }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
