@@ -1,8 +1,8 @@
 ---
 title: SneakPeek
 hero_landscape: ""
-hero_portrait: ""
-hero_text: ""
+hero_portrait: /i/image-10_fb.jpg
+hero_text: B﻿oy or Girl?
 sections:
   - type: text-box
     bg: isabelline
