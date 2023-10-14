@@ -2,42 +2,40 @@
 title: SneakPeek
 hero_landscape: ""
 hero_portrait: ""
-hero_text: >-
-  ![](/i/image-6.jpg "Boy or Girl?")
-
-
-  **B﻿oy or Girl?**
-
-
-  **K﻿now sooner than ever before with S﻿neakPeek Clinical Early DNA Test**
-
-
-  **T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.**
-
-
-  **£﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**
+hero_text: ""
 sections:
-  - type: plain
-    image: /i/image-9.jpg
+  - type: text-box
+    bg: isabelline
+    position: left
+    image: /i/image-6.jpg
     content: >-
-      I﻿t is not always possible to determine your baby's sex on
-      ultrasound.  Don't leave it to chance!
+      **B﻿oy or Girl?**
 
 
-      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy. 
+      **K﻿now sooner than ever before with S﻿neakPeek Clinical Early DNA Test**
 
 
+      **T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.**
 
 
-      Learn more: 
-
-
-      * * <https://sneakpeektest.com/uk/early-clinical-baby-gender-blood-test/>
-        * <https://sneakpeektest.com/uk/test-eligibility-calculator/>
-        * <https://sneakpeektest.com/uk/gender-dna-science/>
+      **£﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**
   - type: text-box
     bg: isabelline
     position: right
+    content: >-
+      **R﻿esults are emailed straight to you in 3-4 business days!*  Dr Reilly
+      is also happy to send results to your party planner or baker if you want
+      to have the reveal as a family occasion.** 
+
+
+      S﻿neakPeek Clinical by Gateway Genomics is the only clinically proven early gender DNA test that lets you discover your baby's sex months ahead of ultrasound, so you can prepare for your little one's arrival, and share with family and friends.  Did you know a small fraction of your baby's DNA circulates in the maternal blood stream?  The test uses non-invasive prenatal testing (NIPT) to look for male Y chromosomes from a small sample of your blood.  From just 3ml of blood we can determine whether male Y chromosomes are found, meaning the baby is a boy.  If none are found, your baby is a girl.  SneakPeak is the leading provider of this technology and the most accurate test on the market, trusted by over 1 million mums and medical providers.
+
+
+      **\*﻿Subject to postal service**
+    image: /i/image-10_fb.jpg
+  - type: text-box
+    bg: isabelline
+    position: left
     image: /i/image-3_fb.jpg
     content: >-
       *F﻿requently Asked Questions*
@@ -92,19 +90,24 @@ sections:
 
 
       3﻿. SneakPeek never shares your results with anyone other than the email address you provide.
-  - type: text-box
-    bg: isabelline
-    position: right
+  - type: plain
+    image: /i/image-9.jpg
     content: >-
-      **R﻿esults are emailed straight to you in 3-4 business days!*  Dr Reilly
-      is also happy to send results to your party planner or baker if you want
-      to have the reveal as a family occasion.** 
+      I﻿t is not always possible to determine your baby's sex on
+      ultrasound.  Don't leave it to chance!
 
 
-      S﻿neakPeek Clinical by Gateway Genomics is the only clinically proven early gender DNA test that lets you discover your baby's sex months ahead of ultrasound, so you can prepare for your little one's arrival, and share with family and friends.  Did you know a small fraction of your baby's DNA circulates in the maternal blood stream?  The test uses non-invasive prenatal testing (NIPT) to look for male Y chromosomes from a small sample of your blood.  From just 3ml of blood we can determine whether male Y chromosomes are found, meaning the baby is a boy.  If none are found, your baby is a girl.  SneakPeak is the leading provider of this technology and the most accurate test on the market, trusted by over 1 million mums and medical providers.
+      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy. 
 
 
-      **\*﻿Subject to postal service**
+
+
+      Learn more: 
+
+
+      * * <https://sneakpeektest.com/uk/early-clinical-baby-gender-blood-test/>
+        * <https://sneakpeektest.com/uk/test-eligibility-calculator/>
+        * <https://sneakpeektest.com/uk/gender-dna-science/>
 menu:
   main:
     weight: 50
