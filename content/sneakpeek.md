@@ -9,16 +9,13 @@ sections:
     position: left
     image: /i/image-6.jpg
     content: >-
-      **B﻿oy or Girl?**
-
-
       **K﻿now sooner than ever before with S﻿neakPeek Clinical Early DNA Test**
 
 
-      **T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.**
+      T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.
 
 
-      **£﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**
+      **For just £﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**  Emailed results will include a special "reveal" video you can watch with your partner or family.
   - type: text-box
     bg: isabelline
     position: right
@@ -32,7 +29,7 @@ sections:
 
 
       **\*﻿Subject to postal service**
-    image: /i/image-10_fb.jpg
+    image: /i/image-8_fb.jpg
   - type: text-box
     bg: isabelline
     position: left
