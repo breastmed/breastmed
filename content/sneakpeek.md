@@ -31,7 +31,7 @@ sections:
       S﻿neakPeek Clinical by Gateway Genomics is the only clinically proven early gender DNA test that lets you discover your baby's sex months ahead of ultrasound, so you can prepare for your little one's arrival, and share with family and friends.  Did you know a small fraction of your baby's DNA circulates in the maternal blood stream?  The test uses non-invasive prenatal testing (NIPT) to look for male Y chromosomes from a small sample of your blood.  From just 3ml of blood we can determine whether male Y chromosomes are found, meaning the baby is a boy.  If none are found, your baby is a girl.  SneakPeak is the leading provider of this technology and the most accurate test on the market, trusted by over 1 million mums and medical providers.
 
 
-      \*﻿Subject to postal service
+      *\*﻿Subject to postal service*
     image: /i/image-8_fb.jpg
   - type: text-box
     bg: isabelline
