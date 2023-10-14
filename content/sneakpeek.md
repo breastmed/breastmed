@@ -15,7 +15,10 @@ sections:
       T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.
 
 
-      **For just £﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**  Emailed results will include a special "reveal" video you can watch with your partner or family.
+      **For just £﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**  Emailed results will include a special "reveal" video you can watch with your partner or family. 
+
+
+      [BOOK](BOOK)
   - type: text-box
     bg: isabelline
     position: right
@@ -28,7 +31,7 @@ sections:
       S﻿neakPeek Clinical by Gateway Genomics is the only clinically proven early gender DNA test that lets you discover your baby's sex months ahead of ultrasound, so you can prepare for your little one's arrival, and share with family and friends.  Did you know a small fraction of your baby's DNA circulates in the maternal blood stream?  The test uses non-invasive prenatal testing (NIPT) to look for male Y chromosomes from a small sample of your blood.  From just 3ml of blood we can determine whether male Y chromosomes are found, meaning the baby is a boy.  If none are found, your baby is a girl.  SneakPeak is the leading provider of this technology and the most accurate test on the market, trusted by over 1 million mums and medical providers.
 
 
-      **\*﻿Subject to postal service**
+      \*﻿Subject to postal service
     image: /i/image-8_fb.jpg
   - type: text-box
     bg: isabelline
@@ -44,7 +47,7 @@ sections:
       S﻿neakPeek also offer an at-home test you can do yourself.  Currently in the UK, this involves drawing blood through a fingerprick test and squeezing drops out.  Having a venous blood sample in clinic reduces the chance of contamination and improves the accuracy of results.  
 
 
-      **I﻿'ve previously had a boy, or miscarriage.  Will that skew my results?**  
+      **I﻿'ve previously had a boy.  Will that skew my results?**  
 
 
       C﻿linical studies have shown that foetal DNA clears from the bloodstream within a few hours, to 2 days after birth. 
@@ -94,16 +97,16 @@ sections:
       ultrasound.  Don't leave it to chance!
 
 
-      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy. 
+      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy.  Click on the [calculator](https://sneakpeektest.com/uk/test-eligibility-calculator) to know when you can take the test. 
 
 
+      [BOOK](BOOK)
 
 
       Learn more: 
 
 
       * * <https://sneakpeektest.com/uk/early-clinical-baby-gender-blood-test/>
-        * <https://sneakpeektest.com/uk/test-eligibility-calculator/>
         * <https://sneakpeektest.com/uk/gender-dna-science/>
 menu:
   main:
