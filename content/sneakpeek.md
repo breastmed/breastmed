@@ -1,6 +1,7 @@
 ---
 title: SneakPeek
-hero_landscape: /i/image-6.jpg
+hero_landscape: ""
+hero_portrait: /i/image-6.jpg
 hero_text: >-
   **B﻿oy or Girl?**
 
@@ -81,6 +82,14 @@ sections:
 
 
       3﻿. SneakPeek never shares your results with anyone other than the email address you provide.
+  - type: plain
+    image: /i/image-9.jpg
+    content: >-
+      I﻿t is not always possible to determine your baby's sex on
+      ultrasound.  Don't leave it to chance!
+
+
+      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy. 
 
 
 
@@ -91,10 +100,6 @@ sections:
       * * <https://sneakpeektest.com/uk/early-clinical-baby-gender-blood-test/>
         * <https://sneakpeektest.com/uk/test-eligibility-calculator/>
         * <https://sneakpeektest.com/uk/gender-dna-science/>
-  - type: plain
-    image: /i/image-9.jpg
-    content: I﻿t is not always possible to determine your baby's sex on
-      ultrasound.  Don't leave it to chance!
 menu:
   main:
     weight: 50
