@@ -116,15 +116,13 @@ sections:
       T﻿his appointment includes a breast exam, a full blood panel including pre- and post- feed /milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG. 
 
 
-      ### £129 SneakPeek Blood Test 
+      ### £129 SneakPeek Blood Test
 
 
       T﻿his pioneering non-invasive blood test can be done with 99.9% accuracy from 6 weeks of pregnancy.  [Click Here](https://breastmed.co.uk/sneakpeek/) to find out more, or book below 
 
 
-
-
-      Book Now
+      [Book Now](BOOK)
     image: /i/tus-feeding-close-up.jpg
   - type: plain
     content: >-
