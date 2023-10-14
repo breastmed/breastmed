@@ -74,7 +74,7 @@ sections:
       **A﻿re results guaranteed?**
 
 
-      S﻿neakPeek Clinical is the most accurate early gender test on the market.  If your test does not match the gender of your newborn, you'll get a full refund. 
+      S﻿neakPeek Clinical is the most accurate early test on the market.  If your test does not match the sex of your newborn, you'll get a full refund.  We recognise gender may not be defined by biological sex at birth. 
 
 
       **I﻿s my privacy protected?**
@@ -83,7 +83,7 @@ sections:
       W﻿e know your DNA information is personal.  To protect your privacy:
 
 
-      1﻿. SneakPeek tests only for baby's gender.  No data is gathered about disease states or other health-related information.
+      1﻿. SneakPeek tests only for baby's sex.  No data is gathered about disease states or other health-related information.
 
 
       2﻿. After the test is run in the lab, your DNA sample is disposed of by a professional chemical management company in compliance with US federal standards.
