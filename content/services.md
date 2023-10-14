@@ -98,7 +98,7 @@ sections:
       All aspects of the at home consultation are available as well as prescribing, blood tests and therapeutic breast ultrasound.  
 
 
-      ### £220, 1 hour appointment, with text support for 1 week
+      ### £220, 1 hour lactation appointment, with text support for 1 week
 
 
       ### £100, 30 Minute Follow Up appointment
@@ -113,10 +113,18 @@ sections:
       ### £200  Low Milk Supply Investigations 30 Minute appointment
 
 
-      T﻿his appointment includes a breast exam, a full blood panel including pre- and post- feed /milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG.   
+      T﻿his appointment includes a breast exam, a full blood panel including pre- and post- feed /milk expression prolactin.  Prescriptions are charged at £20 plus medication costs.  If domperidone is prescribed it is recommended to have follow-up every 3 months to assess dosage, and to have an ECG. 
 
 
-      [Book Now](BOOK)
+      ### £129 SneakPeek Blood Test 
+
+
+      T﻿his pioneering non-invasive blood test can be done with 99.9% accuracy from 6 weeks of pregnancy.  [Click Here](https://breastmed.co.uk/sneakpeek/) to find out more, or book below 
+
+
+
+
+      Book Now
     image: /i/tus-feeding-close-up.jpg
   - type: plain
     content: >-
@@ -126,9 +134,9 @@ sections:
       Please let me know as soon as possible if you do not require an appointment. I appreciate lives with young children are busy and unpredictable.
 
 
-      Cancellation over 48 hours prior to appointment -- 80% refund.
+      Cancellation over 48 hours prior to lactation appointment -- 80% refund.
 
-      Cancellation within 48 hours -- no refund but may reschedule by mutual agreement.
+      Cancellation within 48 hours -- no refund but may reschedule by mutual agreement.  Clinic appointments will incur a charge of £50 for a missed appointment
   - type: text-box
     bg: rosy-brown
     image: /i/blue-blazer.jpg
