@@ -15,7 +15,7 @@ sections:
       T﻿he only 99.9% accurate early DNA-based blood test, starting 6 weeks into pregnancy.
 
 
-      **For just £﻿129 at the Breastmed Clinic includes a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**  Emailed results will include a special "reveal" video you can watch with your partner or family. 
+      **For just £﻿129 at the Breastmed Clinic, you will also receive a collection of our trusted infant feeding resources, so you are prepared when your baby arrives.**   Emailed results will include a special "reveal" video you can watch with your partner or family. 
 
 
       [BOOK](BOOK)
@@ -47,6 +47,12 @@ sections:
       S﻿neakPeek also offer an at-home test you can do yourself.  Currently in the UK, this involves drawing blood through a fingerprick test and squeezing drops out.  Having a venous blood sample in clinic reduces the chance of contamination and improves the accuracy of results.  
 
 
+      **Why have your test at the Breastmed clinic?**
+
+
+      W﻿e understand that you may be keeping your pregnancy to yourself, or aren't telling anyone yet.  With our small discrete team we ensure your confidentiality.  You will also be given access to  our expertly collated resources to help you make informed decisions about feeding your wee one when they arrive. 
+
+
       **I﻿'ve previously had a boy.  Will that skew my results?**  
 
 
@@ -68,7 +74,7 @@ sections:
       **D﻿o blood thinners affect my results?**
 
 
-      S﻿neakPeek looks only for the presence of Y chromosomes and is extremely sensitive and accurate.  No blood thinners or other drugs are known to impact SneakPeek gender results. 
+      S﻿neakPeek looks only for the presence of Y chromosomes and is extremely sensitive and accurate.  No blood thinners or other drugs are known to impact SneakPeek results. 
 
 
       **A﻿re results guaranteed?**
@@ -97,7 +103,7 @@ sections:
       ultrasound.  Don't leave it to chance!
 
 
-      H﻿aving your blood sample done in a clinical setting offers reassurance and accuracy.  Click on the [calculator](https://sneakpeektest.com/uk/test-eligibility-calculator) to know when you can take the test. 
+      H﻿aving your blood sample done at the Breastmed clinic offers reassurance and accuracy.  Click on the [calculator](https://sneakpeektest.com/uk/test-eligibility-calculator) to know when you can take the test if you are under 6 weeks pregnant. 
 
 
       [BOOK](BOOK)
