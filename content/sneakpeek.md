@@ -50,7 +50,7 @@ sections:
       **Why have your test at the Breastmed clinic?**
 
 
-      W﻿e understand that you may be keeping your pregnancy to yourself, or aren't telling anyone yet.  With our small discrete team we ensure your confidentiality.  You will also be given access to  our expertly collated resources to help you make informed decisions about feeding your wee one when they arrive. 
+      W﻿e understand that you may be keeping your pregnancy to yourself, or aren't telling anyone yet.  With our small discrete team we ensure your confidentiality.  You will also be given access to  our expertly collated antenatal resources to help you make informed decisions about feeding your wee one when they arrive. 
 
 
       **I﻿'ve previously had a boy.  Will that skew my results?**  
