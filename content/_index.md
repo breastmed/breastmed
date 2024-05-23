@@ -3,8 +3,11 @@ title: Home
 hero_landscape: /i/justice-entering.jpg
 hero_portrait: ""
 hero_text: |-
-  Personalised\
-  lactation support
+  Dr Reilly is on 
+
+  Maternity Leave 
+
+  until 2025
 
   [Book help today](BOOK)
 sections:
