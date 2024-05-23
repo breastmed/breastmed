@@ -12,11 +12,15 @@ sections:
       UK:
 
 
-      * Breastfeeding for Doctors ([@milkymedics](https://twitter.com/milkymedics))
+      * M﻿edics' Lactation Community (MiLC) [@medics_lactationcommunity](https://www.instagram.com/medics_lactationcommunity?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 
-      * Spectrum Lactation Image Library
+      * [Spectrum Lactation Image Library](https://spectrumlactation.org/)
 
-      * Scottish Government Breastfeeding Advocacy and Culture Change Policy Subgroup Committee
+      * [Academy of Breastfeeding Medicine](https://www.bfmed.org/)
+
+      * Scottish Breastfeeding Collaborative
+
+      * [Association of Breastfeeding Mothers ](https://abm.me.uk/)
 
       * [La Leche League GB](https://laleche.org.uk) ([@LLLGB](https://twitter.com/LLLGB))
 
