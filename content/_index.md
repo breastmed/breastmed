@@ -2,14 +2,7 @@
 title: Home
 hero_landscape: /i/justice-entering.jpg
 hero_portrait: ""
-hero_text: |-
-  Dr Reilly is on 
-
-  Maternity Leave 
-
-  until 2025
-
-  [Book help today](BOOK)
+hero_text: "[Book help today](BOOK)"
 sections:
   - type: columns
     desktop_count: 4
